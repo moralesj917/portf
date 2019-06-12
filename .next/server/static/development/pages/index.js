@@ -93,10 +93,109 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./component/Header.js":
-/*!*****************************!*\
-  !*** ./component/Header.js ***!
-  \*****************************/
+/***/ "./component/Homepage/SectionOne/HomePage-Card.js":
+/*!********************************************************!*\
+  !*** ./component/Homepage/SectionOne/HomePage-Card.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var HomePageCard = function HomePageCard(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "HomePageCard"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../../static/images/checkmark.svg"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, props.paragraph)));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (HomePageCard);
+
+/***/ }),
+
+/***/ "./component/Homepage/SectionOne/SectionOne.js":
+/*!*****************************************************!*\
+  !*** ./component/Homepage/SectionOne/SectionOne.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _HomePage_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HomePage-Card */ "./component/Homepage/SectionOne/HomePage-Card.js");
+
+
+
+var SectionOne = function SectionOne() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SectionOne"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SectionOne-top"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "As full stack engineer I wanted to get a well rounded education. So i can build everything top to bottom. I really enjoy the whole software process from constipation to production.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SectionOne-bottom"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePage_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Front-end",
+    paragraph: "I learned HTML , CSS, and vanilla JavaScript. To make  my web pages interactive. But I added some JS frameworks like React.js"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePage_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Back-end",
+    paragraph: "I know to use Node.js as well Express.js to make server including using Golang to combine with React to make super fast application that are well made."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePage_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Cloud",
+    paragraph: "Being able to put my application to the cloud a necessity for today market like docker and AWS to make sure to optimize cost."
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SectionOne);
+
+/***/ }),
+
+/***/ "./component/Homepage/SectionTwo/SectionTwo.js":
+/*!*****************************************************!*\
+  !*** ./component/Homepage/SectionTwo/SectionTwo.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var SectionTwo = function SectionTwo() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SectionTwo"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SectionTwo-top"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Projects Gallery"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SectionTwo-bottom"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "SectionTwo-bottom-image-one",
+    src: "../../../static/images/expensify-project.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "SectionTwo-bottom-image-two",
+    src: "../../../static/images/node-chat-app.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "SectionTwo-bottom-image-three",
+    src: "../../../static/images/weather-app.png"
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SectionTwo);
+
+/***/ }),
+
+/***/ "./component/layout/Footer.js":
+/*!************************************!*\
+  !*** ./component/layout/Footer.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -106,77 +205,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/Jonathan/Documents/next.js/component/Header.js";
 
 
 
-var Header = function Header() {
+var Footer = function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "header",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+    className: "footer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footer-first"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
+    href: "https://www.linkedin.com/in/jonathan-m-23327b118/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "header-links",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/portfolio",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
+    className: "footer-links footer-one"
+  }, "Linkedin")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "https://github.com/moralesj917"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "header-links two ",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, " Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
+    className: "footer-links footer-two"
+  }, "Github")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "../../static/resume.pdf"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "header-links three",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }));
+    className: "footer-links footer-three"
+  }, "Resume"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footer-second"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Charlotte, NC, USA")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footer-third"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\xA9 Jonathan Morales")));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Header);
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
 
 /***/ }),
 
-/***/ "./component/Layout.js":
-/*!*****************************!*\
-  !*** ./component/Layout.js ***!
-  \*****************************/
+/***/ "./component/layout/Header.js":
+/*!************************************!*\
+  !*** ./component/layout/Header.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -184,25 +247,56 @@ var Header = function Header() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./component/Header.js");
-var _jsxFileName = "/Users/Jonathan/Documents/next.js/component/Layout.js";
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var Header = function Header() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "header"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "header-links header-links-one"
+  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/portfolio"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "header-links header-links-two"
+  }, " Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/about"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "header-links header-links-three"
+  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "../../static/resume.pdf"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "header-links header-links-four"
+  }, "Resume")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./component/layout/Layout.js":
+/*!************************************!*\
+  !*** ./component/layout/Layout.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./component/layout/Header.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ "./component/layout/Footer.js");
+
 
 
 
 var Layout = function Layout(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }), props.children);
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -989,15 +1083,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _component_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../component/Layout */ "./component/Layout.js");
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _component_layout_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../component/layout/Layout */ "./component/layout/Layout.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _component_Homepage_SectionOne_SectionOne__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../component/Homepage/SectionOne/SectionOne */ "./component/Homepage/SectionOne/SectionOne.js");
+/* harmony import */ var _component_Homepage_SectionTwo_SectionTwo__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../component/Homepage/SectionTwo/SectionTwo */ "./component/Homepage/SectionTwo/SectionTwo.js");
 
 
 
 
 
-var _jsxFileName = "/Users/Jonathan/Documents/next.js/pages/index.js";
+
+
+
 
 
 
@@ -1016,22 +1116,14 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Index, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_component_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_component_layout_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", null, "Home Page"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "viewport",
+        content: "initial-scale=1.0, width=device-width"
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         className: "background-gif",
-        src: "../static/images/ezgif-2-75679e8f20.gif",
-        alt: "matrix gif",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        },
-        __self: this
-      }));
+        src: "../static/images/matrix.gif",
+        alt: "matrix gif"
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_component_Homepage_SectionOne_SectionOne__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_component_Homepage_SectionTwo_SectionTwo__WEBPACK_IMPORTED_MODULE_10__["default"], null));
     }
   }]);
 
@@ -1061,7 +1153,7 @@ function (_React$Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/Jonathan/Documents/next.js/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Jonathan.Morales\Documents\portf\Portf\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -1151,6 +1243,17 @@ module.exports = require("core-js/library/fn/symbol/iterator");
 /***/ (function(module, exports) {
 
 module.exports = require("next-server/dist/lib/utils");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 

@@ -1,12 +1,22 @@
 import React from 'react';
-import Layout from '../component/Layout';
+import Layout from '../component/layout/Layout';
+import Head from 'next/head';
 import '../styles/styles.scss';
+import SectionOne from '../component/Homepage/SectionOne/SectionOne';
+import SectionTwo from '../component/Homepage/SectionTwo/SectionTwo';
 
 class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <img className="background-gif" src="../static/images/ezgif-2-75679e8f20.gif" alt="matrix gif" />
+        <Head>
+          <title>Home Page</title>
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head>
+        
+        <img className="background-gif" src="../static/images/matrix.gif" alt="matrix gif" />
+        <SectionOne />
+        <SectionTwo />
       </Layout>
     );
   };

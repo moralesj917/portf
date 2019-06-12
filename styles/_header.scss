@@ -4,39 +4,26 @@ html, body {
 
 .header {
   position: absolute;
-  top: 7vh;
-  left: 5vw;
+  top: 5vh;
+  left: 3vw;
 }
 
 .header-links {
   text-decoration: none;
-  color: white;
+  color: #A9A9A9;
   font-size: 1.7em;
-  margin-left: 1em;
-  margin-right: 1em;
-  transition: border-bottom 1s;
+  padding-left: 2em;
+  padding-right: 2em;
+  transition: color 1s;
   border-bottom: none;
 }
 
 .header-links:hover {
-  border-bottom: white;
+  color: #5d8950;
 }
 
-.two:hover ~ hr {
-  margin-left: 36%;
+.header-links-one,
+.header-links-two,
+.header-links-three {
+  border-right: 2px solid #A9A9A9;
 }
-
-.three:hover ~ hr {
-  margin-left: 70%;
-}
-
-hr {
-  height: .25rem;
-  width: 30%;
-  margin: 0;
-  background: white;
-  border: none;
-  transition: .3s ease-in-out;
-  margin-top: .2em;
-}
-

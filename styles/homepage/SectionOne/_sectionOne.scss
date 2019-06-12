@@ -1,0 +1,44 @@
+.SectionOne {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid 	#A9A9A9;
+  padding-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.SectionOne-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.SectionOne-top h2 {
+  font-size: 2.5em;
+}
+
+.SectionOne-top p{
+  width: 50%;
+  margin: 0 auto 2em auto;
+  font-size: 1.1em;
+}
+
+.SectionOne-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.HomePageCard {
+  display: flex;
+  width: 20vw;
+}
+
+.HomePageCard img {
+  width: 60px;
+  height: 50px;
+  align-self: flex-start;
+  margin-top: 1em;
+  margin-right: 1em;
+}
