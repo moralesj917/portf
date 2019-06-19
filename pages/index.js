@@ -4,6 +4,8 @@ import Head from 'next/head';
 import '../styles/styles.scss';
 import SectionOne from '../component/Homepage/SectionOne/SectionOne';
 import SectionTwo from '../component/Homepage/SectionTwo/SectionTwo';
+import SectionThree from '../component/Homepage/SectionThree/SectionThree';
+import SectionFour from '../component/Homepage/SectionFour/SectionFour';
 
 class Index extends React.Component {
   render() {
@@ -14,9 +16,16 @@ class Index extends React.Component {
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         
-        <img className="background-gif" src="../static/images/matrix.gif" alt="matrix gif" />
+        <video autoPlay className="background-gif">
+          <source src="../static/images/matrixRain.webm" type="video/webm"/>
+        </video>
+        
+        <audio src="../static/audio/linkinpark.mp3" controls autoPlay />
+
         <SectionOne />
         <SectionTwo />
+        <SectionThree />
+        <SectionFour />
       </Layout>
     );
   };

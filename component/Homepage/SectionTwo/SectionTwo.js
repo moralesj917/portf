@@ -4,8 +4,9 @@ const SectionTwo = () => (
   <div className="SectionTwo">
     <div className="SectionTwo-top">
       <h2>Projects Gallery</h2>
-      <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
-      placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  
+      <p> I have worked on various projects to help expand my understanding of the tools and languages that I have learned.
+        I have projects from node.js to projects involving React. And as well as involving various amount of tools 
+        to boost the performance as well as effectiviness of my applications.
       </p>
     </div>
     <div className="SectionTwo-bottom">

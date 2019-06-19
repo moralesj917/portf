@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\portfolio.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/portfolio.js"],{
 
 /***/ "./component/layout/Footer.js":
 /*!************************************!*\
@@ -6294,10 +6294,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=C%3A%5CUsers%5CJonathan.Morales%5CDocuments%5Cportf%5CPortf%5Cpages%5Cportfolio.js!./":
-/*!********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=C%3A%5CUsers%5CJonathan.Morales%5CDocuments%5Cportf%5CPortf%5Cpages%5Cportfolio.js ***!
-  \********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fportfolio.js!./":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fportfolio.js ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10585,14 +10585,14 @@ var Portfolio = function Portfolio() {
 
 /***/ }),
 
-/***/ 4:
-/*!************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=C%3A%5CUsers%5CJonathan.Morales%5CDocuments%5Cportf%5CPortf%5Cpages%5Cportfolio.js ***!
-  \************************************************************************************************************************************************************/
+/***/ 3:
+/*!***********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fportfolio.js ***!
+  \***********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fportfolio&absolutePagePath=C%3A%5CUsers%5CJonathan.Morales%5CDocuments%5Cportf%5CPortf%5Cpages%5Cportfolio.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=C%3A%5CUsers%5CJonathan.Morales%5CDocuments%5Cportf%5CPortf%5Cpages%5Cportfolio.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fportfolio&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fportfolio.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fportfolio.js!./");
 
 
 /***/ }),
@@ -10608,5 +10608,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=portfolio.js.map

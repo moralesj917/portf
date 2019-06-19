@@ -1,0 +1,43 @@
+.SectionFour {
+  margin-bottom: 5em;
+}
+
+.SectionFour-bottom form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.SectionFour h2 {
+  font-size: $h2-heading;
+  text-align: center;
+}
+
+.SectionFour-bottom form textarea{
+  width: 38vw;
+  height: 7vh;
+  padding: 0.5em 1em 1em 1em;
+  border: 1px solid $off-white;
+  margin: 0 auto;
+}
+
+.SectionFour-bottom-div {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 2em auto 0 auto;
+}
+
+.SectionFour-bottom-div input{
+  margin-right: 1em;
+  padding: .8em;
+  width: 33%;
+}
+
+.email {
+  flex-grow: 1.5;
+}
+
+.SectionFour-bottom-div button {
+  background-color: #5d8950;
+  flex-grow: 2;
+}

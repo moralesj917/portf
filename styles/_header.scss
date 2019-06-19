@@ -4,8 +4,9 @@ html, body {
 
 .header {
   position: absolute;
-  top: 5vh;
-  left: 3vw;
+  top: 4vh;
+  left: .5vw;
+  z-index: 1000;
 }
 
 .header-links {

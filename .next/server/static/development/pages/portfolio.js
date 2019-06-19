@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -800,14 +800,14 @@ var Portfolio = function Portfolio() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!**********************************!*\
   !*** multi ./pages/portfolio.js ***!
   \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Jonathan.Morales\Documents\portf\Portf\pages\portfolio.js */"./pages/portfolio.js");
+module.exports = __webpack_require__(/*! /Users/jonathanmorales/Documents/Portf/pages/portfolio.js */"./pages/portfolio.js");
 
 
 /***/ }),

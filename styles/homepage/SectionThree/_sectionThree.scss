@@ -1,0 +1,31 @@
+.SectionThree {
+  border-bottom: 1px solid $off-white;
+  padding-bottom: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.SectionThree h2{
+  text-align: center;
+  font-size: $h2-heading;
+}
+
+.SectionThree-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.SectionThreeCard {
+  border: .5px solid black;
+  width: 26vw;
+  padding: 1em;
+}
+
+.SectionThreeCard p,
+.SectionThreeCard h3 {
+  text-align: center;
+}
+
+.SectionThreeCard hr {
+  width: 50%;
+}
