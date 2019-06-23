@@ -16,7 +16,7 @@ class Index extends React.Component {
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
          
-        <video autoPlay className="background-gif">
+        <video autoPlay loop className="background-gif">
           <source src="../static/images/matrixRain.webm" type="video/webm"/>
         </video>
         

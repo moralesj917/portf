@@ -511,5 +511,77 @@ audio {
   background-color: #5d8950;
   flex-grow: 2; }
 
+.black-bckgrnd {
+  width: 100vw;
+  height: 10vh;
+  background-color: black; }
+
+hr {
+  width: 95%; }
+
+SectionTwo {
+  margin-top: 5em; }
+
+.ThumbNail {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.ThumbNail-left {
+  display: flex;
+  flex-direction: column; }
+
+.ThumbNail-left h2 {
+  font-size: 2.5em; }
+
+.ThumbNail-left p {
+  width: 22vw;
+  text-align: center;
+  margin: 0 auto 1.7em auto; }
+
+.ThumbNail-left a {
+  background-color: #5d8950;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  width: 8vw;
+  margin: 0 auto; }
+
+.ThumbNail-right {
+  display: flex;
+  flex-direction: column; }
+
+.ThumbNail-right img {
+  width: 25vw;
+  margin-bottom: 1em; }
+
+.ThumbNail-right a {
+  margin: 0 auto;
+  text-decoration: none;
+  color: black; }
+
+.Tools {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center; }
+
+.TechCard {
+  width: 20vw;
+  display: flex;
+  flex-direction: column; }
+
+.TechCard img,
+.TechCard h3,
+.TechCard p {
+  margin: 0 auto 1em auto; }
+
+.TechCard p {
+  text-align: center; }
+
+.TechCard img {
+  width: 40%; }
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/

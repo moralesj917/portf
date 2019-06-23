@@ -1,0 +1,46 @@
+.ThumbNail {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ThumbNail-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.ThumbNail-left h2 {
+  font-size: $h2-heading;
+}
+
+.ThumbNail-left p {
+  width: 22vw;
+  text-align: center;
+  margin: 0 auto 1.7em auto;
+}
+
+.ThumbNail-left a {
+  background-color: #5d8950;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  width: 8vw;
+  margin: 0 auto;
+}
+
+.ThumbNail-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.ThumbNail-right img {
+  width: 25vw;
+  margin-bottom: 1em;
+}
+
+.ThumbNail-right a {
+  margin: 0 auto;
+  text-decoration: none;
+  color: black;
+}
