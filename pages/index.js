@@ -14,6 +14,7 @@ class Index extends React.Component {
         <Head>
           <title>Home Page</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <link rel="icon" href="../static/images/tech-icon-18.jpg"></link>
         </Head>
          
         <video autoPlay loop className="background-gif">

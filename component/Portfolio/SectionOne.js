@@ -12,7 +12,6 @@ const SectionOne = () => (
       imgFilePath="../../static/images/portfolio-website.png"
       githubRepo="https://github.com/moralesj917/Portf"
     />
-    <hr />
     <Tools
       firstIcon="../../static/images/react-pic.png" 
       firstTitle="React"
@@ -27,7 +26,7 @@ const SectionOne = () => (
       thirdTitle="Zeit"
       thirdSummary="With Next.js you can use Zeit which has now which is a serverless tool that pairs with Next.js greatly."
     />
-    <hr />
+    <hr className="finishing-section"/>
   </div>
 );
 

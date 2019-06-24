@@ -12,7 +12,7 @@ const SectionOne = () => (
     <div className="SectionOne-bottom">
       <HomePageCard 
         title="Front-end" 
-        paragraph="I learned HTML , CSS, and vanilla JavaScript. To make  my web pages interactive. But I added some JS frameworks like React.js"
+        paragraph="I learned HTML , CSS, and vanilla JavaScript. To make  my web pages interactive. But I added some JS frameworks like React.js."
       />
 
       <HomePageCard 
@@ -21,8 +21,8 @@ const SectionOne = () => (
       />
 
       <HomePageCard
-        title="Cloud"
-        paragraph="Being able to put my application to the cloud a necessity for today market like docker and AWS to make sure to optimize cost."
+        title="GraphQL"
+        paragraph="Mostly everything is on mobile most of these days, that is why I made it my goal to understand a new techinque of getting and transmitting my data."
       />
     </div>
   </div>

@@ -12,22 +12,22 @@ const SectionTwo = () => (
       imgFilePath="../../static/images/expensify.png"
       githubRepo="hhttps://github.com/moralesj917/Expensify-app"
     />
-    <hr />
     <Tools
       firstIcon="../../static/images/react-pic.png" 
       firstTitle="React"
-      firstSummary="I wanted to showcase my best skill and techonlogy that I enjoy working with so much. I used React with "
+      firstSummary="Using React a fast and reactive framework to make the application seemless and as well fast was a simple decision."
 
       secondIcon="../../static/images/firebase.png"
       secondTitle="Firebase"
-      secondSummary="With React and Next.js you can a faster website that will use CSR(Client Side Rendering) and SSR(Server Side 
-        Rendering)."
+      secondSummary="Firebase has many uses and I used in my application to have a user sign in through there google login and 
+                    as well as use Firebase's database to manage data."
 
       thirdIcon="../../static/images/enzyme.png"
       thirdTitle="Airbnb Enzyme with Jest"
-      thirdSummary="With Next.js you can use Zeit which has now which is a serverless tool that pairs with Next.js greatly."
+      thirdSummary="Being fimilar with a tesing framework such as Jest was the perfect pair with Airbnb Enzyme to make automated 
+                    testing and test driven development easier."
     />
-    <hr />
+    <hr className="finishing-section"/>
   </div>
 );
 

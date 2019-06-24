@@ -88,207 +88,10 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./component/Portfolio/SectionOne.js":
-/*!*******************************************!*\
-  !*** ./component/Portfolio/SectionOne.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./WebApps/ThumbNail */ "./component/Portfolio/WebApps/ThumbNail.js");
-/* harmony import */ var _WebApps_Tools__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WebApps/Tools */ "./component/Portfolio/WebApps/Tools.js");
-
-
-
-
-var SectionOne = function SectionOne() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Portfolio Website",
-    summary: "As an aspiring Full-Stack Developer in todays market that is over satured in engineers. I had to find a way to  showcase my skills as a Software Engineer and as well as implement the techinical knowledge I acquired for praticial use.",
-    appLink: "www.jonmoral.com",
-    imgFilePath: "../../static/images/portfolio-website.png",
-    githubRepo: "https://github.com/moralesj917/Portf"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_Tools__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    firstIcon: "../../static/images/react-pic.png",
-    firstTitle: "React",
-    firstSummary: "I wanted to showcase my best skill and techonlogy that I enjoy working with so much. I used React with ",
-    secondIcon: "../../static/images/next.png",
-    secondTitle: "Next.js",
-    secondSummary: "With React and Next.js you can a faster website that will use CSR(Client Side Rendering) and SSR(Server Side  Rendering).",
-    thirdIcon: "../../static/images/now.png",
-    thirdTitle: "Zeit",
-    thirdSummary: "With Next.js you can use Zeit which has now which is a serverless tool that pairs with Next.js greatly."
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SectionOne);
-
-/***/ }),
-
-/***/ "./component/Portfolio/SectionTwo.js":
-/*!*******************************************!*\
-  !*** ./component/Portfolio/SectionTwo.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./WebApps/ThumbNail */ "./component/Portfolio/WebApps/ThumbNail.js");
-/* harmony import */ var _WebApps_Tools__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WebApps/Tools */ "./component/Portfolio/WebApps/Tools.js");
-
-
-
-
-var SectionTwo = function SectionTwo() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Expensify App",
-    summary: "As an aspiring Full-Stack Developer in todays market that is over satured in engineers. I had to find a way to  showcase my skills as a Software Engineer and as well as implement the techinical knowledge I acquired for praticial use.",
-    appLink: "https://morales-expensify.herokuapp.com/",
-    imgFilePath: "../../static/images/expensify.png",
-    githubRepo: "hhttps://github.com/moralesj917/Expensify-app"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_Tools__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    firstIcon: "../../static/images/react-pic.png",
-    firstTitle: "React",
-    firstSummary: "I wanted to showcase my best skill and techonlogy that I enjoy working with so much. I used React with ",
-    secondIcon: "../../static/images/firebase.png",
-    secondTitle: "Firebase",
-    secondSummary: "With React and Next.js you can a faster website that will use CSR(Client Side Rendering) and SSR(Server Side  Rendering).",
-    thirdIcon: "../../static/images/enzyme.png",
-    thirdTitle: "Airbnb Enzyme with Jest",
-    thirdSummary: "With Next.js you can use Zeit which has now which is a serverless tool that pairs with Next.js greatly."
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SectionTwo);
-
-/***/ }),
-
-/***/ "./component/Portfolio/WebApps/TechCard.js":
-/*!*************************************************!*\
-  !*** ./component/Portfolio/WebApps/TechCard.js ***!
-  \*************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-var TechCard = function TechCard(_ref) {
-  var icon = _ref.icon,
-      title = _ref.title,
-      summary = _ref.summary;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "TechCard"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: icon
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, summary));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (TechCard);
-
-/***/ }),
-
-/***/ "./component/Portfolio/WebApps/ThumbNail.js":
-/*!**************************************************!*\
-  !*** ./component/Portfolio/WebApps/ThumbNail.js ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-var ThumbNail = function ThumbNail(_ref) {
-  var title = _ref.title,
-      summary = _ref.summary,
-      appLink = _ref.appLink,
-      imgFilePath = _ref.imgFilePath,
-      githubRepo = _ref.githubRepo;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "ThumbNail"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "ThumbNail-left"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, summary), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: appLink
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Go to the app"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "ThumbNail-right"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: imgFilePath
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: githubRepo
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Github Repo"))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (ThumbNail);
-
-/***/ }),
-
-/***/ "./component/Portfolio/WebApps/Tools.js":
-/*!**********************************************!*\
-  !*** ./component/Portfolio/WebApps/Tools.js ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _TechCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TechCard */ "./component/Portfolio/WebApps/TechCard.js");
-
-
-
-var Tools = function Tools(_ref) {
-  var firstIcon = _ref.firstIcon,
-      firstTitle = _ref.firstTitle,
-      firstSummary = _ref.firstSummary,
-      secondIcon = _ref.secondIcon,
-      secondTitle = _ref.secondTitle,
-      secondSummary = _ref.secondSummary,
-      thirdIcon = _ref.thirdIcon,
-      thirdTitle = _ref.thirdTitle,
-      thirdSummary = _ref.thirdSummary;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Tools"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TechCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    icon: firstIcon,
-    title: firstTitle,
-    summary: firstSummary
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TechCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    icon: secondIcon,
-    title: secondTitle,
-    summary: secondSummary
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TechCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    icon: thirdIcon,
-    title: thirdTitle,
-    summary: thirdSummary
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Tools);
-
-/***/ }),
 
 /***/ "./component/layout/Footer.js":
 /*!************************************!*\
@@ -954,10 +757,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/portfolio.js":
-/*!****************************!*\
-  !*** ./pages/portfolio.js ***!
-  \****************************/
+/***/ "./pages/about.js":
+/*!************************!*\
+  !*** ./pages/about.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -970,25 +773,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
 /* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _component_Portfolio_SectionOne__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../component/Portfolio/SectionOne */ "./component/Portfolio/SectionOne.js");
-/* harmony import */ var _component_Portfolio_SectionTwo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../component/Portfolio/SectionTwo */ "./component/Portfolio/SectionTwo.js");
 
 
 
 
 
-
-
-var Portfolio = function Portfolio() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_layout_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Portfolio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+var About = function About() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_layout_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     name: "viewport",
     content: "initial-scale=1.0, width=device-width"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "black-bckgrnd"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_Portfolio_SectionOne__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_Portfolio_SectionTwo__WEBPACK_IMPORTED_MODULE_5__["default"], null));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
+    autoPlay: true,
+    loop: true,
+    className: "background-nav"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+    src: "../static/images/matrixRain.webm",
+    type: "video/webm"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is about page"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Portfolio);
+/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
@@ -1003,14 +809,14 @@ var Portfolio = function Portfolio() {
 
 /***/ }),
 
-/***/ 4:
-/*!**********************************!*\
-  !*** multi ./pages/portfolio.js ***!
-  \**********************************/
+/***/ 6:
+/*!******************************!*\
+  !*** multi ./pages/about.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/jonathanmorales/Documents/Portf/pages/portfolio.js */"./pages/portfolio.js");
+module.exports = __webpack_require__(/*! /Users/Jonathan/Documents/Portf/pages/about.js */"./pages/about.js");
 
 
 /***/ }),
@@ -1170,4 +976,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=portfolio.js.map
+//# sourceMappingURL=about.js.map

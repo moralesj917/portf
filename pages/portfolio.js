@@ -4,20 +4,27 @@ import Head from 'next/head';
 import '../styles/styles.scss';
 import SectionOne from '../component/Portfolio/SectionOne';
 import SectionTwo from '../component/Portfolio/SectionTwo';
+import SectionThree from '../component/Portfolio/SectionThree';
 
-const Portfolio = () => {
-  return (
-    <Layout>
-      <Head>
-        <title>Portfolio</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-      <div className="black-bckgrnd"></div>
-      <SectionOne />
-      <SectionTwo />
+const Portfolio = () => (
+  <Layout>
+    <Head>
+      <title>Portfolio</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <link rel="icon" href="../static/images/tech-icon-18.jpg"></link>
+    </Head>
 
-    </Layout>
-  );
-};
+    <div className="black-bckgrnd">
+      <video autoPlay loop className="background-nav">
+        <source src="../static/images/matrixRain.webm" type="video/webm"/>
+      </video>
+    </div>
+
+    <SectionOne />
+    <SectionTwo />
+    <SectionThree />
+
+  </Layout>
+);
 
 export default Portfolio;

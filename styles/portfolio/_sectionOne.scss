@@ -1,13 +1,12 @@
 .black-bckgrnd {
-  width: 100vw;
   height: 10vh;
-  background-color: black;
+  overflow: hidden;
+}
+
+.background-nav {
+  width: 100vw;
 }
 
 hr {
   width: 95%;
-}
-
-SectionTwo {
-  margin-top: 5em;
 }
