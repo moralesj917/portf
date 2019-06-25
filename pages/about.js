@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../component/layout/Layout';
 import Head from 'next/head';
 import '../styles/styles.scss';
+import SectionOne from '../component/About/SectionOne';
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
       </video>
       </div>
       
-      <p>This is about page</p>
+      <SectionOne />
     </Layout>
   );
 };

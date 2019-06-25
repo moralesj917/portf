@@ -1,5 +1,38 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/about.js"],{
 
+/***/ "./component/About/SectionOne.js":
+/*!***************************************!*\
+  !*** ./component/About/SectionOne.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var SectionOne = function SectionOne() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "About-SectionOne"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "About-SectionOne-left"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../static/images/headshot.jpeg"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jonathan Morales"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Sofware Engineer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I'm energetic Software engineer who loves to solve problems. I enjoy working in a team environment because it allows me to have different perspectives on writing and creating code. I always love challenging myself to learn new skills as well as sharpening the skills i already have."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/moralesj917"
+  }, "Go to my Github")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "About-SectionOne-right"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../static/images/chart.svg"
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SectionOne);
+
+/***/ }),
+
 /***/ "./component/layout/Footer.js":
 /*!************************************!*\
   !*** ./component/layout/Footer.js ***!
@@ -6294,10 +6327,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2FJonathan%2FDocuments%2FPortf%2Fpages%2Fabout.js!./":
-/*!****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2FJonathan%2FDocuments%2FPortf%2Fpages%2Fabout.js ***!
-  \****************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js!./":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10569,6 +10602,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
 /* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _component_About_SectionOne__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../component/About/SectionOne */ "./component/About/SectionOne.js");
+
 
 
 
@@ -10587,21 +10622,21 @@ var About = function About() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
     src: "../static/images/matrixRain.webm",
     type: "video/webm"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is about page"));
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_About_SectionOne__WEBPACK_IMPORTED_MODULE_4__["default"], null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
-/***/ 5:
-/*!********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2FJonathan%2FDocuments%2FPortf%2Fpages%2Fabout.js ***!
-  \********************************************************************************************************************************/
+/***/ 0:
+/*!***************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js ***!
+  \***************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2FJonathan%2FDocuments%2FPortf%2Fpages%2Fabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2FJonathan%2FDocuments%2FPortf%2Fpages%2Fabout.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js!./");
 
 
 /***/ }),
@@ -10617,5 +10652,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=about.js.map
