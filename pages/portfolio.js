@@ -15,9 +15,7 @@ const Portfolio = () => (
     </Head>
 
     <div className="black-bckgrnd">
-      <video autoPlay loop className="background-nav">
-        <source src="../static/images/matrixRain.webm" type="video/webm"/>
-      </video>
+      <img className="background-nav" src="../static/images/photo1.jpeg"/>
     </div>
 
     <SectionOne />

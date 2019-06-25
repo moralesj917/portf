@@ -3,6 +3,7 @@ import Layout from '../component/layout/Layout';
 import Head from 'next/head';
 import '../styles/styles.scss';
 import SectionOne from '../component/About/SectionOne';
+import SectionTwo from '../component/About/SectionTwo';
 
 const About = () => {
   return (
@@ -13,12 +14,12 @@ const About = () => {
       </Head>
 
       <div className="black-bckgrnd">
-      <video autoPlay loop className="background-nav">
-        <source src="../static/images/matrixRain.webm" type="video/webm"/>
-      </video>
+       <img className="background-nav" src="../static/images/photo1.jpeg"/>
       </div>
       
       <SectionOne />
+      <hr />
+      <SectionTwo />
     </Layout>
   );
 };

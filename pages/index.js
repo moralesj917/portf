@@ -17,12 +17,8 @@ class Index extends React.Component {
           <link rel="icon" href="../static/images/tech-icon-18.jpg"></link>
         </Head>
          
-        <video autoPlay loop className="background-gif">
-          <source src="../static/images/matrixRain.webm" type="video/webm"/>
-        </video>
+        <img className="hero-one" src="../static/images/photo1.jpeg"/>
         
-        <audio src="../static/audio/linkinpark.mp3" controls autoPlay loop/>
-
         <SectionOne />
         <SectionTwo />
         <SectionThree />
