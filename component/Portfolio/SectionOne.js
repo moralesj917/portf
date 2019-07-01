@@ -3,7 +3,7 @@ import ThumbNail from './WebApps/ThumbNail';
 import Tools from './WebApps/Tools';
 
 const SectionOne = () => (
-  <div >
+  <div className="Port-SectionOne">
     <ThumbNail
       title="Portfolio Website"
       summary="As an aspiring Full-Stack Developer in todays market that is over satured in engineers. I had to find a way to 

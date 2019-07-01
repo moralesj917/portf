@@ -316,7 +316,7 @@ html, body {
 
 .header-links {
   text-decoration: none;
-  color: #5d8950;
+  color: #3e76d5;
   font-size: 1.7em;
   padding-left: 2em;
   padding-right: 2em;
@@ -516,15 +516,19 @@ html, body {
     padding: .8em;
     width: 33%; }
   .SectionFour-bottom-div button {
-    background-color: #5d8950;
+    background-color: #3e76d5;
     flex-grow: 2;
-    cursor: pointer; }
+    cursor: pointer;
+    color: white; }
 
 .email {
   flex-grow: 1.5; }
 
 hr {
   width: 95%; }
+
+.Port-SectionOne {
+  margin-top: 3em; }
 
 .ThumbNail {
   display: flex;
@@ -543,7 +547,7 @@ hr {
     text-align: center;
     margin: 0 auto 1.7em auto; }
   .ThumbNail-left a {
-    background-color: #5d8950;
+    background-color: #3e76d5;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -583,7 +587,7 @@ hr {
     width: 40%; }
 
 .About-SectionOne {
-  margin-top: 3em;
+  margin-top: 5em;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -611,7 +615,7 @@ hr {
     margin: 0 auto 1em auto;
     width: 20vw; }
   .About-SectionOne-left a {
-    background-color: #5d8950;
+    background-color: #3e76d5;
     text-decoration: none;
     color: white;
     padding: 1.5rem;

@@ -5,9 +5,3 @@ module.exports = withSass({
   }, 
   target: 'serverless'
 })
-
-// module.exports = withSass(
-//   {
-//     target: 'serverless'
-//   }
-// )
