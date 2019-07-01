@@ -308,27 +308,38 @@ html, body {
   font-family: 'Montserrat', sans-serif; }
 
 .header {
-  position: absolute;
-  top: 4vh;
-  left: .5vw;
-  z-index: 1000; }
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  padding: 1.5em 0 1em 0;
+  width: 100vw; }
 
 .header-links {
   text-decoration: none;
-  color: #F5F5F5;
+  color: #5d8950;
   font-size: 1.7em;
   padding-left: 2em;
   padding-right: 2em;
-  transition: color 1s;
-  border-bottom: none; }
+  transition: color .5s;
+  border-bottom: none;
+  font-weight: 500; }
+  .header-links:hover {
+    color: black; }
 
-.header-links:hover {
-  color: #5d8950; }
+.sticky {
+  position: fixed;
+  animation: transitionBar;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  width: 100%;
+  z-index: 1000; }
 
-.header-links-one,
-.header-links-two,
-.header-links-three {
-  border-right: 2px solid #A9A9A9; }
+@keyframes transitionBar {
+  0% {
+    background-color: transparent; }
+  100% {
+    background-color: white; } }
 
 .footer {
   display: flex;
@@ -365,6 +376,25 @@ html, body {
 .hero-one {
   width: 100vw; }
 
+.hero-one-name {
+  position: absolute;
+  top: 30vh;
+  font-size: 4rem;
+  color: white;
+  left: calc(50vh - 85px);
+  animation: transitionName;
+  animation-duration: 1.5s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  text-transform: uppercase; }
+
+@keyframes transitionName {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 .SectionOne {
   display: flex;
   flex-direction: column;
@@ -377,14 +407,12 @@ html, body {
   display: flex;
   flex-direction: column;
   text-align: center; }
-
-.SectionOne-top h2 {
-  font-size: 2.5em; }
-
-.SectionOne-top p {
-  width: 50%;
-  margin: 0 auto 2em auto;
-  font-size: 1.1em; }
+  .SectionOne-top h2 {
+    font-size: 2.5em; }
+  .SectionOne-top p {
+    width: 50%;
+    margin: 0 auto 2em auto;
+    font-size: 1.1em; }
 
 .SectionOne-bottom {
   display: flex;
@@ -395,13 +423,12 @@ html, body {
 .HomePageCard {
   display: flex;
   width: 20vw; }
-
-.HomePageCard img {
-  width: 60px;
-  height: 50px;
-  align-self: flex-start;
-  margin-top: 1em;
-  margin-right: 1em; }
+  .HomePageCard img {
+    width: 60px;
+    height: 50px;
+    align-self: flex-start;
+    margin-top: 1em;
+    margin-right: 1em; }
 
 .SectionTwo {
   display: flex;
@@ -416,14 +443,12 @@ html, body {
   display: flex;
   flex-direction: column;
   text-align: center; }
-
-.SectionTwo-top h2 {
-  font-size: 2.5em; }
-
-.SectionTwo-top p {
-  width: 50%;
-  margin: 0 auto 2em auto;
-  font-size: 1.1em; }
+  .SectionTwo-top h2 {
+    font-size: 2.5em; }
+  .SectionTwo-top p {
+    width: 50%;
+    margin: 0 auto 2em auto;
+    font-size: 1.1em; }
 
 .SectionTwo-bottom {
   display: flex;
@@ -445,10 +470,9 @@ html, body {
   padding-bottom: 4em;
   margin-left: 2em;
   margin-right: 2em; }
-
-.SectionThree h2 {
-  text-align: center;
-  font-size: 2.5em; }
+  .SectionThree h2 {
+    text-align: center;
+    font-size: 2.5em; }
 
 .SectionThree-bottom {
   display: flex;
@@ -458,25 +482,22 @@ html, body {
   border: .5px solid black;
   width: 26vw;
   padding: 1em; }
-
-.SectionThreeCard p,
-.SectionThreeCard h3 {
-  text-align: center; }
-
-.SectionThreeCard hr {
-  width: 50%; }
+  .SectionThreeCard p,
+  .SectionThreeCard h3 {
+    text-align: center; }
+  .SectionThreeCard hr {
+    width: 50%; }
 
 .SectionFour {
   margin-bottom: 5em; }
+  .SectionFour h2 {
+    font-size: 2.5em;
+    text-align: center; }
 
 .SectionFour-bottom form {
   display: flex;
   flex-direction: column;
   justify-content: center; }
-
-.SectionFour h2 {
-  font-size: 2.5em;
-  text-align: center; }
 
 .SectionFour-bottom form textarea {
   width: 38vw;
@@ -490,25 +511,17 @@ html, body {
   display: flex;
   justify-content: space-between;
   margin: 2em auto 0 auto; }
-
-.SectionFour-bottom-div input {
-  margin-right: 1em;
-  padding: .8em;
-  width: 33%; }
+  .SectionFour-bottom-div input {
+    margin-right: 1em;
+    padding: .8em;
+    width: 33%; }
+  .SectionFour-bottom-div button {
+    background-color: #5d8950;
+    flex-grow: 2;
+    cursor: pointer; }
 
 .email {
   flex-grow: 1.5; }
-
-.SectionFour-bottom-div button {
-  background-color: #5d8950;
-  flex-grow: 2; }
-
-.black-bckgrnd {
-  height: 10vh;
-  overflow: hidden; }
-
-.background-nav {
-  width: 100vw; }
 
 hr {
   width: 95%; }
@@ -523,36 +536,31 @@ hr {
 .ThumbNail-left {
   display: flex;
   flex-direction: column; }
-
-.ThumbNail-left h2 {
-  font-size: 2.5em; }
-
-.ThumbNail-left p {
-  width: 22vw;
-  text-align: center;
-  margin: 0 auto 1.7em auto; }
-
-.ThumbNail-left a {
-  background-color: #5d8950;
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  padding: 1em;
-  width: 8vw;
-  margin: 0 auto; }
+  .ThumbNail-left h2 {
+    font-size: 2.5em; }
+  .ThumbNail-left p {
+    width: 22vw;
+    text-align: center;
+    margin: 0 auto 1.7em auto; }
+  .ThumbNail-left a {
+    background-color: #5d8950;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 8vw;
+    margin: 0 auto; }
 
 .ThumbNail-right {
   display: flex;
   flex-direction: column; }
-
-.ThumbNail-right img {
-  width: 25vw;
-  margin-bottom: 1em; }
-
-.ThumbNail-right a {
-  margin: 0 auto;
-  text-decoration: none;
-  color: black; }
+  .ThumbNail-right img {
+    width: 25vw;
+    margin-bottom: 1em; }
+  .ThumbNail-right a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: black; }
 
 .Tools {
   display: flex;
@@ -564,18 +572,15 @@ hr {
   width: 20vw;
   display: flex;
   flex-direction: column; }
-
-.TechCard img,
-.TechCard h3,
-.TechCard p {
-  margin: 0 auto 1em auto; }
-
-.TechCard p {
-  text-align: center; }
-
-.TechCard img {
-  margin-top: 1em;
-  width: 40%; }
+  .TechCard img,
+  .TechCard h3,
+  .TechCard p {
+    margin: 0 auto 1em auto; }
+  .TechCard p {
+    text-align: center; }
+  .TechCard img {
+    margin-top: 1em;
+    width: 40%; }
 
 .About-SectionOne {
   margin-top: 3em;
@@ -589,71 +594,60 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center; }
-
-.About-SectionOne-left h2 {
-  margin-top: .5em;
-  font-size: 2.5em;
-  margin-bottom: .5em; }
-
-.About-SectionOne-left h2,
-.About-SectionOne-left h3,
-.About-SectionOne-left p {
-  text-align: center; }
-
-.About-SectionOne-left h3 {
-  font-size: 1.5em; }
-
-.About-SectionOne-left p {
-  width: 30vw; }
-
-.About-SectionOne-left img {
-  display: block;
-  margin: 0 auto 1em auto;
-  width: 20vw; }
-
-.About-SectionOne-left a {
-  background-color: #5d8950;
-  text-decoration: none;
-  color: white;
-  padding: 1.5rem;
-  font-size: 1.3em;
-  margin-top: 1em; }
+  .About-SectionOne-left h2 {
+    margin-top: .5em;
+    font-size: 2.5em;
+    margin-bottom: .5em; }
+  .About-SectionOne-left h2,
+  .About-SectionOne-left h3,
+  .About-SectionOne-left p {
+    text-align: center; }
+  .About-SectionOne-left h3 {
+    font-size: 1.5em; }
+  .About-SectionOne-left p {
+    width: 30vw; }
+  .About-SectionOne-left img {
+    display: block;
+    margin: 0 auto 1em auto;
+    width: 20vw; }
+  .About-SectionOne-left a {
+    background-color: #5d8950;
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.3em;
+    margin-top: 1em; }
 
 .About-SectionOne-right {
   align-self: flex-start;
   margin-top: 5em; }
-
-.About-SectionOne-right img {
-  height: 50vh; }
+  .About-SectionOne-right img {
+    height: 50vh; }
 
 .About-SectionTwo {
   display: flex;
   flex-direction: column;
   align-items: center; }
-
-.About-SectionTwo h1 {
-  font-size: 3em; }
+  .About-SectionTwo h1 {
+    font-size: 3em; }
 
 .FutureCards {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 2em; }
+  .FutureCards img {
+    width: 20vw;
+    display: inline-block;
+    margin-left: 5em; }
 
 .FutureCards-left {
   width: 40vw;
   margin-right: 5em; }
-
-.FutureCards-left h2 {
-  font-size: 2.5em; }
-
-.FutureCards-left p {
-  width: 32vw;
-  margin-left: 4em; }
-
-.FutureCards img {
-  width: 20vw;
-  display: inline-block;
-  margin-left: 5em; }
+  .FutureCards-left h2 {
+    font-size: 2.5em; }
+  .FutureCards-left p {
+    width: 32vw;
+    margin-left: 4em; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

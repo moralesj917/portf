@@ -11,16 +11,16 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-}
 
-.SectionOne-top h2 {
-  font-size: 2.5em;
-}
+  h2 {
+    font-size: 2.5em;
+  }
 
-.SectionOne-top p{
-  width: 50%;
-  margin: 0 auto 2em auto;
-  font-size: 1.1em;
+  p{
+    width: 50%;
+    margin: 0 auto 2em auto;
+    font-size: 1.1em;
+  }
 }
 
 .SectionOne-bottom {
@@ -33,12 +33,12 @@
 .HomePageCard {
   display: flex;
   width: 20vw;
-}
 
-.HomePageCard img {
-  width: 60px;
-  height: 50px;
-  align-self: flex-start;
-  margin-top: 1em;
-  margin-right: 1em;
+  img {
+    width: 60px;
+    height: 50px;
+    align-self: flex-start;
+    margin-top: 1em;
+    margin-right: 1em;
+  }
 }

@@ -12,10 +12,6 @@ const About = () => {
           <title>About</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-
-      <div className="black-bckgrnd">
-       <img className="background-nav" src="../static/images/photo1.jpeg"/>
-      </div>
       
       <SectionOne />
       <hr />

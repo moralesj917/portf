@@ -18,6 +18,7 @@ class Index extends React.Component {
         </Head>
          
         <img className="hero-one" src="../static/images/photo1.jpeg"/>
+        <h2 className="hero-one-name">Jonathan Morales</h2>
         
         <SectionOne />
         <SectionTwo />

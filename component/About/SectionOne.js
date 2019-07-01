@@ -3,7 +3,7 @@ import React from 'react';
 const SectionOne = () => (
   <div className="About-SectionOne">
     <div className="About-SectionOne-left">
-      <img src="../../static/images/headshot.jpeg" ></img>
+      <img src="../../static/images/profile.png" ></img>
       <p>Jonathan Morales</p>
       <h2>Sofware Engineer</h2>
       <h3>About Me</h3>
