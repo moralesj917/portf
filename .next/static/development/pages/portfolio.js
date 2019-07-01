@@ -333,9 +333,18 @@ function (_React$Component) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Header).call(this, props));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleScroll", function () {
-      _this.setState({
-        scrolled: true
-      });
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      if (window.pageYOffset > sticky) {
+        _this.setState({
+          scrolled: true
+        });
+      } else {
+        _this.setState({
+          scrolled: false
+        });
+      }
     });
 
     _this.state = {
@@ -353,7 +362,8 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: this.state.scrolled ? 'header sticky' : 'header'
+        className: this.state.scrolled ? 'header sticky' : 'header',
+        id: "myHeader"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -10919,7 +10929,7 @@ var Portfolio = function Portfolio() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 0:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fportfolio.js ***!
   \***********************************************************************************************************************************************/
@@ -10942,5 +10952,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=portfolio.js.map

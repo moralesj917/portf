@@ -14,15 +14,24 @@ class Header extends React.Component {
   }
 
   handleScroll = () => {
-    this.setState({
-      scrolled: true
-    })
+    const header = document.getElementById("myHeader");
+    const sticky = header.offsetTop;
+    if (window.pageYOffset > sticky) {
+      this.setState({
+        scrolled: true
+      })
+    } else {
+      this.setState({
+        scrolled: false
+      })
+    }
+   
     
   }
 
   render() {
     return(
-      <div className={this.state.scrolled ? 'header sticky' : 'header' } >
+      <div className={this.state.scrolled ? 'header sticky' : 'header' } id="myHeader">
       <Link href="/">
         <a className="header-links header-links-one">Home</a>
       </Link>
