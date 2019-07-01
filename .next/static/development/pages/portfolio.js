@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./WebApps/ThumbNail */ "./component/Portfolio/WebApps/ThumbNail.js");
-/* harmony import */ var _WebApps_Tools__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WebApps/Tools */ "./component/Portfolio/WebApps/Tools.js");
+/* harmony import */ var _WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WebApps/TechCard */ "./component/Portfolio/WebApps/TechCard.js");
 
 
 
@@ -26,16 +26,9 @@ var SectionOne = function SectionOne() {
     appLink: "www.jonmoral.com",
     imgFilePath: "../../static/images/portfolio-website.png",
     githubRepo: "https://github.com/moralesj917/Portf"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_Tools__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    firstIcon: "../../static/images/react-pic.png",
-    firstTitle: "React",
-    firstSummary: "I wanted to showcase my best skill and techonlogy that I enjoy working with so much. I used React with ",
-    secondIcon: "../../static/images/next.png",
-    secondTitle: "Next.js",
-    secondSummary: "With React and Next.js you can a faster website that will use CSR(Client Side Rendering) and SSR(Server Side  Rendering).",
-    thirdIcon: "../../static/images/now.png",
-    thirdTitle: "Zeit",
-    thirdSummary: "With Next.js you can use Zeit which has now which is a serverless tool that pairs with Next.js greatly."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    icons: ["../../static/images/react-pic.png", "../../static/images/next.png", "../../static/images/now.png"],
+    titles: ["React", "Next.js", "Zeit / Now"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     className: "finishing-section"
   }));
@@ -57,28 +50,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./WebApps/ThumbNail */ "./component/Portfolio/WebApps/ThumbNail.js");
-/* harmony import */ var _WebApps_Tools__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WebApps/Tools */ "./component/Portfolio/WebApps/Tools.js");
+/* harmony import */ var _WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WebApps/TechCard */ "./component/Portfolio/WebApps/TechCard.js");
 
 
 
 
 var SectionThree = function SectionThree() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Portfolio Website",
-    summary: "As an aspiring Full-Stack Developer in todays market that is over satured in engineers. I had to find a way to  showcase my skills as a Software Engineer and as well as implement the techinical knowledge I acquired for praticial use.",
-    appLink: "www.jonmoral.com",
+    title: "Socket.io Chat app",
+    summary: "As I learning Node.js I wanted to make a fullstack web applications with real world applications. Using socket.io  a real time engine that allows me to have the server listen for any client that connects to a certain chat room and send it to all  connected clients like any real-time chat application would.",
+    appLink: "https://morales-node-chat-app.herokuapp.com/",
     imgFilePath: "../../static/images/chat-app.png",
     githubRepo: "https://github.com/moralesj917/Chat-app"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_Tools__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    firstIcon: "../../static/images/node.png",
-    firstTitle: "Node.js",
-    firstSummary: "Using Node.js as my backend language and let Socket.io do all the heavy lifting with the help of Express.js",
-    secondIcon: "../../static/images/socket.jpg",
-    secondTitle: "Socket.io",
-    secondSummary: "Socket.io is a real time engine that send a message to every client within a specfic chat room like any real-time chat application.",
-    thirdIcon: "../../static/images/express.svg",
-    thirdTitle: "Express.js",
-    thirdSummary: "Express was just used to create an application server that socket.io listened for activity."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    icons: ["../../static/images/node.png", "../../static/images/socketio.png", "../../static/images/express.svg"],
+    titles: ["Node.js", "Socket.io", "Express.js"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     className: "finishing-section"
   }));
@@ -100,7 +86,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./WebApps/ThumbNail */ "./component/Portfolio/WebApps/ThumbNail.js");
-/* harmony import */ var _WebApps_Tools__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WebApps/Tools */ "./component/Portfolio/WebApps/Tools.js");
+/* harmony import */ var _WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WebApps/TechCard */ "./component/Portfolio/WebApps/TechCard.js");
 
 
 
@@ -108,20 +94,13 @@ __webpack_require__.r(__webpack_exports__);
 var SectionTwo = function SectionTwo() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "Expensify App",
-    summary: "As an aspiring Full-Stack Developer in todays market that is over satured in engineers. I had to find a way to  showcase my skills as a Software Engineer and as well as implement the techinical knowledge I acquired for praticial use.",
+    summary: "One of the toughest applications that I have made used React.js with Redux. Pushing the limit of the knowledge I  have about React. Using Google's Firebase as my applications database. While creating over 60 automated test cases, with Jest  and Airbnb's Enzyme to take snapshots as well as giving the confidence to update the application and ensure that I didn't break any  part of my application.",
     appLink: "https://morales-expensify.herokuapp.com/",
     imgFilePath: "../../static/images/expensify.png",
     githubRepo: "hhttps://github.com/moralesj917/Expensify-app"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_Tools__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    firstIcon: "../../static/images/react-pic.png",
-    firstTitle: "React",
-    firstSummary: "Using React a fast and reactive framework to make the application seemless and as well fast was a simple decision.",
-    secondIcon: "../../static/images/firebase.png",
-    secondTitle: "Firebase",
-    secondSummary: "Firebase has many uses and I used in my application to have a user sign in through there google login and  as well as use Firebase's database to manage data.",
-    thirdIcon: "../../static/images/enzyme.png",
-    thirdTitle: "Airbnb Enzyme with Jest",
-    thirdSummary: "Being fimilar with a tesing framework such as Jest was the perfect pair with Airbnb Enzyme to make automated  testing and test driven development easier."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    icons: ["../../static/images/react-pic.png", "../../static/images/redux.png", "../../static/images/enzyme.png", "../../static/images/firebase.png"],
+    titles: ["React.js", "Redux", "Airbnb Enzyme with Jest", "Firebase"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     className: "finishing-section"
   }));
@@ -145,14 +124,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var TechCard = function TechCard(_ref) {
-  var icon = _ref.icon,
-      title = _ref.title,
-      summary = _ref.summary;
+  var icons = _ref.icons,
+      titles = _ref.titles;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "TechCard"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: icon
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, summary));
+  }, icons.map(function (icon, title) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "TechCard-ind"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: icon
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, titles[title]));
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TechCard);
@@ -197,52 +179,6 @@ var ThumbNail = function ThumbNail(_ref) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ThumbNail);
-
-/***/ }),
-
-/***/ "./component/Portfolio/WebApps/Tools.js":
-/*!**********************************************!*\
-  !*** ./component/Portfolio/WebApps/Tools.js ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _TechCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TechCard */ "./component/Portfolio/WebApps/TechCard.js");
-
-
-
-var Tools = function Tools(_ref) {
-  var firstIcon = _ref.firstIcon,
-      firstTitle = _ref.firstTitle,
-      firstSummary = _ref.firstSummary,
-      secondIcon = _ref.secondIcon,
-      secondTitle = _ref.secondTitle,
-      secondSummary = _ref.secondSummary,
-      thirdIcon = _ref.thirdIcon,
-      thirdTitle = _ref.thirdTitle,
-      thirdSummary = _ref.thirdSummary;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Tools"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TechCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    icon: firstIcon,
-    title: firstTitle,
-    summary: firstSummary
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TechCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    icon: secondIcon,
-    title: secondTitle,
-    summary: secondSummary
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TechCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    icon: thirdIcon,
-    title: thirdTitle,
-    summary: thirdSummary
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Tools);
 
 /***/ }),
 

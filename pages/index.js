@@ -5,7 +5,6 @@ import '../styles/styles.scss';
 import SectionOne from '../component/Homepage/SectionOne/SectionOne';
 import SectionTwo from '../component/Homepage/SectionTwo/SectionTwo';
 import SectionThree from '../component/Homepage/SectionThree/SectionThree';
-import SectionFour from '../component/Homepage/SectionFour/SectionFour';
 
 class Index extends React.Component {
   render() {
@@ -21,9 +20,10 @@ class Index extends React.Component {
         <h2 className="hero-one-name">Jonathan Morales</h2>
         
         <SectionOne />
+
         <SectionTwo />
+
         <SectionThree />
-        <SectionFour />
       </Layout>
     );
   };

@@ -1,30 +1,21 @@
 import React from 'react';
 import ThumbNail from './WebApps/ThumbNail';
-import Tools from './WebApps/Tools';
+import TechCard from './WebApps/TechCard';
 
 const SectionThree = () => (
   <div >
     <ThumbNail
-      title="Portfolio Website"
-      summary="As an aspiring Full-Stack Developer in todays market that is over satured in engineers. I had to find a way to 
-      showcase my skills as a Software Engineer and as well as implement the techinical knowledge I acquired for praticial use."
-      appLink="www.jonmoral.com"
+      title="Socket.io Chat app"
+      summary="As I learning Node.js I wanted to make a fullstack web applications with real world applications. Using socket.io 
+      a real time engine that allows me to have the server listen for any client that connects to a certain chat room and send it to all 
+      connected clients like any real-time chat application would."
+      appLink="https://morales-node-chat-app.herokuapp.com/"
       imgFilePath="../../static/images/chat-app.png"
       githubRepo="https://github.com/moralesj917/Chat-app"
     />
-    <Tools
-      firstIcon="../../static/images/node.png" 
-      firstTitle="Node.js"
-      firstSummary="Using Node.js as my backend language and let Socket.io do all the heavy lifting with the help of Express.js"
-
-      secondIcon="../../static/images/socket.jpg"
-      secondTitle="Socket.io"
-      secondSummary="Socket.io is a real time engine that send a message to every client within a specfic chat room like any real-time
-                      chat application."
-
-      thirdIcon="../../static/images/express.svg"
-      thirdTitle="Express.js"
-      thirdSummary="Express was just used to create an application server that socket.io listened for activity."
+    <TechCard
+      icons={["../../static/images/node.png", "../../static/images/socketio.png", "../../static/images/express.svg"]}
+      titles={["Node.js", "Socket.io", "Express.js"]}
     />
     <hr className="finishing-section"/>
   </div>

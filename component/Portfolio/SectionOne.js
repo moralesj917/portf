@@ -1,6 +1,6 @@
 import React from 'react';
 import ThumbNail from './WebApps/ThumbNail';
-import Tools from './WebApps/Tools';
+import TechCard from './WebApps/TechCard';
 
 const SectionOne = () => (
   <div className="Port-SectionOne">
@@ -12,19 +12,9 @@ const SectionOne = () => (
       imgFilePath="../../static/images/portfolio-website.png"
       githubRepo="https://github.com/moralesj917/Portf"
     />
-    <Tools
-      firstIcon="../../static/images/react-pic.png" 
-      firstTitle="React"
-      firstSummary="I wanted to showcase my best skill and techonlogy that I enjoy working with so much. I used React with "
-
-      secondIcon="../../static/images/next.png"
-      secondTitle="Next.js"
-      secondSummary="With React and Next.js you can a faster website that will use CSR(Client Side Rendering) and SSR(Server Side 
-        Rendering)."
-
-      thirdIcon="../../static/images/now.png"
-      thirdTitle="Zeit"
-      thirdSummary="With Next.js you can use Zeit which has now which is a serverless tool that pairs with Next.js greatly."
+    <TechCard
+      icons={["../../static/images/react-pic.png", "../../static/images/next.png", "../../static/images/now.png" ]}
+      titles={["React", "Next.js", "Zeit / Now"]}
     />
     <hr className="finishing-section"/>
   </div>

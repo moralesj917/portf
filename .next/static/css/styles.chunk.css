@@ -466,7 +466,6 @@ html, body {
   height: 40vh; }
 
 .SectionThree {
-  border-bottom: 1px solid #A9A9A9;
   padding-bottom: 4em;
   margin-left: 2em;
   margin-right: 2em; }
@@ -488,42 +487,6 @@ html, body {
   .SectionThreeCard hr {
     width: 50%; }
 
-.SectionFour {
-  margin-bottom: 5em; }
-  .SectionFour h2 {
-    font-size: 2.5em;
-    text-align: center; }
-
-.SectionFour-bottom form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-.SectionFour-bottom form textarea {
-  width: 38vw;
-  height: 7vh;
-  padding: 0.5em 1em 1em 1em;
-  border: 1px solid #A9A9A9;
-  margin: 0 auto; }
-
-.SectionFour-bottom-div {
-  width: 40vw;
-  display: flex;
-  justify-content: space-between;
-  margin: 2em auto 0 auto; }
-  .SectionFour-bottom-div input {
-    margin-right: 1em;
-    padding: .8em;
-    width: 33%; }
-  .SectionFour-bottom-div button {
-    background-color: #3e76d5;
-    flex-grow: 2;
-    cursor: pointer;
-    color: white; }
-
-.email {
-  flex-grow: 1.5; }
-
 hr {
   width: 95%; }
 
@@ -539,11 +502,12 @@ hr {
 
 .ThumbNail-left {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
   .ThumbNail-left h2 {
     font-size: 2.5em; }
   .ThumbNail-left p {
-    width: 22vw;
+    width: 35vw;
     text-align: center;
     margin: 0 auto 1.7em auto; }
   .ThumbNail-left a {
@@ -566,25 +530,23 @@ hr {
     text-decoration: none;
     color: black; }
 
-.Tools {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center; }
-
 .TechCard {
-  width: 20vw;
+  width: 80vw;
   display: flex;
-  flex-direction: column; }
-  .TechCard img,
-  .TechCard h3,
-  .TechCard p {
-    margin: 0 auto 1em auto; }
-  .TechCard p {
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto; }
+
+.TechCard-ind {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .TechCard-ind h3 {
     text-align: center; }
-  .TechCard img {
+  .TechCard-ind img {
+    margin-bottom: 1em;
     margin-top: 1em;
-    width: 40%; }
+    width: 8vw; }
 
 .About-SectionOne {
   margin-top: 5em;

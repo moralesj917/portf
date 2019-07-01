@@ -1,9 +1,9 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/about.js"],{
 
-/***/ "./component/Homepage/SectionFour/SectionFour.js":
-/*!*******************************************************!*\
-  !*** ./component/Homepage/SectionFour/SectionFour.js ***!
-  \*******************************************************/
+/***/ "./component/About/SectionOne.js":
+/*!***************************************!*\
+  !*** ./component/About/SectionOne.js ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11,89 +11,21 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-var SectionFour = function SectionFour() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionFour"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Get in Touch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionFour-bottom"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
-    placeholder: "Message"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionFour-bottom-div"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "email",
-    placeholder: "Email Address",
-    className: "email"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    placeholder: "Full Name"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    type: "submit",
-    value: "Submit"
-  }, "Submit")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SectionFour);
-
-/***/ }),
-
-/***/ "./component/Homepage/SectionOne/HomePage-Card.js":
-/*!********************************************************!*\
-  !*** ./component/Homepage/SectionOne/HomePage-Card.js ***!
-  \********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-var HomePageCard = function HomePageCard(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "HomePageCard"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../../../static/images/checkmark.svg"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, props.paragraph)));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (HomePageCard);
-
-/***/ }),
-
-/***/ "./component/Homepage/SectionOne/SectionOne.js":
-/*!*****************************************************!*\
-  !*** ./component/Homepage/SectionOne/SectionOne.js ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _HomePage_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HomePage-Card */ "./component/Homepage/SectionOne/HomePage-Card.js");
-
 
 
 var SectionOne = function SectionOne() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionOne"
+    className: "About-SectionOne"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionOne-top"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "As a full stack engineer, I wanted to get a well-rounded education. So I can build everything top to bottom. I really enjoy the whole software process from constipation to production.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionOne-bottom"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePage_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Front-end",
-    paragraph: "I learned HTML, CSS, and vanilla JavaScript. To make my web pages interactive. But I added some JS frameworks like React.js."
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePage_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Back-end",
-    paragraph: "I know to use Node.js as well Express.js to make server including using Golang to combine with React to make a super fast application that is well made."
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePage_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "GraphQL",
-    paragraph: "Mostly everything is on mobile most of these days, that is why I made it my goal to understand a new technique of getting and transmitting my data."
+    className: "About-SectionOne-left"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../static/images/profile.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jonathan Morales"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Sofware Engineer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I'm energetic Software engineer who loves to solve problems. I enjoy working in a team environment because it allows me to have different perspectives on writing and creating code. I always love challenging myself to learn new skills as well as sharpening the skills i already have."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/moralesj917"
+  }, "Go to my Github")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "About-SectionOne-right"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../static/images/chart.svg"
   })));
 };
 
@@ -101,10 +33,10 @@ var SectionOne = function SectionOne() {
 
 /***/ }),
 
-/***/ "./component/Homepage/SectionThree/SectionThree.js":
-/*!*********************************************************!*\
-  !*** ./component/Homepage/SectionThree/SectionThree.js ***!
-  \*********************************************************/
+/***/ "./component/About/SectionTwo.js":
+/*!***************************************!*\
+  !*** ./component/About/SectionTwo.js ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -112,87 +44,67 @@ var SectionOne = function SectionOne() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SectionThreeCard */ "./component/Homepage/SectionThree/SectionThreeCard.js");
+/* harmony import */ var _futureCards_FutureCards__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./futureCards/FutureCards */ "./component/About/futureCards/FutureCards.js");
 
-
-
-var SectionThree = function SectionThree() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionThree"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionThree-bottom"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    text: "My experience began as a Software Engineer Appretince at SSI Schaefer a logistic company that uses java. I only got experience as a QA Engineer. Working with JVM and high profile clients that were  worth millions of dollars.",
-    job: "SSI Schaefer"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    text: "Acquiring and applying knowledge is one of my passions. Understanding the inner-workings of  some of the most advanced techonlogy. Inevitably a stack that I personal thought would work best led  me to build and create my own projects. With my curiosity leading the way",
-    job: "Personal"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    text: "Since I was an appretince for Schaefer they only paid for a Associates in IT with a conceration with Software Engineering but I left before taking any Sofware Engineering courses. But I did complete and acheive my Pc pro  and Network cerfication from Testout.",
-    job: "CPCC"
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SectionThree);
-
-/***/ }),
-
-/***/ "./component/Homepage/SectionThree/SectionThreeCard.js":
-/*!*************************************************************!*\
-  !*** ./component/Homepage/SectionThree/SectionThreeCard.js ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-var SectionThreeCard = function SectionThreeCard(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionThreeCard"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, props.text), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, props.job));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SectionThreeCard);
-
-/***/ }),
-
-/***/ "./component/Homepage/SectionTwo/SectionTwo.js":
-/*!*****************************************************!*\
-  !*** ./component/Homepage/SectionTwo/SectionTwo.js ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
 var SectionTwo = function SectionTwo() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionTwo"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionTwo-top"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Projects Gallery"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I have worked on various projects to help expand my understanding of the tools and languages that I have learned. I have projects from node.js to projects involving React. As well as involving the various amount of tools to boost the performance as well as the effectiveness of my applications.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionTwo-bottom"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "SectionTwo-bottom-image-one",
-    src: "../../../static/images/expensify-project.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "SectionTwo-bottom-image-two",
-    src: "../../../static/images/node-chat-app.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "SectionTwo-bottom-image-three",
-    src: "../../../static/images/weather-app.png"
-  })));
+    className: "About-SectionTwo"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Future Endeavors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_futureCards_FutureCards__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Learn Golang",
+    summary: "I'm energetic Software engineer who loves to solve problems. I enjoy working in a  team environment because it allows me to have different perspectives on writing and creating  code. I always love challenging myself to learn new skills as well as sharpening the skills i already have.",
+    imgFilePath: "../../static/images/golang_gopher.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_futureCards_FutureCards__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Manchine Learning",
+    summary: "I'm energetic Software engineer who loves to solve problems. I enjoy working in a  team environment because it allows me to have different perspectives on writing and creating  code. I always love challenging myself to learn new skills as well as sharpening the skills i already have.",
+    imgFilePath: "../../static/images/machine-learning.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_futureCards_FutureCards__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Vue.js",
+    summary: "I'm energetic Software engineer who loves to solve problems. I enjoy working in a  team environment because it allows me to have different perspectives on writing and creating  code. I always love challenging myself to learn new skills as well as sharpening the skills i already have.",
+    imgFilePath: "../../static/images/vue.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_futureCards_FutureCards__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "AWS",
+    summary: "I'm energetic Software engineer who loves to solve problems. I enjoy working in a  team environment because it allows me to have different perspectives on writing and creating  code. I always love challenging myself to learn new skills as well as sharpening the skills i already have.",
+    imgFilePath: "../../static/images/aws.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_futureCards_FutureCards__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Python",
+    summary: "I'm energetic Software engineer who loves to solve problems. I enjoy working in a  team environment because it allows me to have different perspectives on writing and creating  code. I always love challenging myself to learn new skills as well as sharpening the skills i already have.",
+    imgFilePath: "../../static/images/python.png"
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SectionTwo);
+
+/***/ }),
+
+/***/ "./component/About/futureCards/FutureCards.js":
+/*!****************************************************!*\
+  !*** ./component/About/futureCards/FutureCards.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var FutureCards = function FutureCards(_ref) {
+  var title = _ref.title,
+      summary = _ref.summary,
+      imgFilePath = _ref.imgFilePath;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "FutureCards"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "FutureCards-left"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, summary)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: imgFilePath
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (FutureCards);
 
 /***/ }),
 
@@ -6579,21 +6491,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Findex.js!./":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Findex.js ***!
-  \******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js!./":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/about", function() {
+      var page = __webpack_require__(/*! ./pages/about.js */ "./pages/about.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/about.js */ "./pages/about.js", function() {
+          if(!next.router.components["/about"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/about.js */ "./pages/about.js")
+          next.router.update("/about", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -10838,31 +10750,24 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/about.js":
 /*!************************!*\
-  !*** ./pages/index.js ***!
+  !*** ./pages/about.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _component_layout_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../component/layout/Layout */ "./component/layout/Layout.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _component_Homepage_SectionOne_SectionOne__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../component/Homepage/SectionOne/SectionOne */ "./component/Homepage/SectionOne/SectionOne.js");
-/* harmony import */ var _component_Homepage_SectionTwo_SectionTwo__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../component/Homepage/SectionTwo/SectionTwo */ "./component/Homepage/SectionTwo/SectionTwo.js");
-/* harmony import */ var _component_Homepage_SectionThree_SectionThree__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../component/Homepage/SectionThree/SectionThree */ "./component/Homepage/SectionThree/SectionThree.js");
-/* harmony import */ var _component_Homepage_SectionFour_SectionFour__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../component/Homepage/SectionFour/SectionFour */ "./component/Homepage/SectionFour/SectionFour.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _component_layout_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../component/layout/Layout */ "./component/layout/Layout.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _component_About_SectionOne__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../component/About/SectionOne */ "./component/About/SectionOne.js");
+/* harmony import */ var _component_About_SectionTwo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../component/About/SectionTwo */ "./component/About/SectionTwo.js");
 
 
 
@@ -10870,58 +10775,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var About = function About() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_layout_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_About_SectionOne__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_About_SectionTwo__WEBPACK_IMPORTED_MODULE_5__["default"], null));
+};
 
-
-
-
-
-
-
-var Index =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Index, _React$Component);
-
-  function Index() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Index);
-
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Index).apply(this, arguments));
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Index, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_component_layout_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", null, "Home Page"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
-        name: "viewport",
-        content: "initial-scale=1.0, width=device-width"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
-        rel: "icon",
-        href: "../static/images/tech-icon-18.jpg"
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        className: "hero-one",
-        src: "../static/images/photo1.jpeg"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
-        className: "hero-one-name"
-      }, "Jonathan Morales"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_component_Homepage_SectionOne_SectionOne__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_component_Homepage_SectionTwo_SectionTwo__WEBPACK_IMPORTED_MODULE_10__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_component_Homepage_SectionThree_SectionThree__WEBPACK_IMPORTED_MODULE_11__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_component_Homepage_SectionFour_SectionFour__WEBPACK_IMPORTED_MODULE_12__["default"], null));
-    }
-  }]);
-
-  return Index;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-;
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
 /***/ 3:
-/*!**********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Findex.js ***!
-  \**********************************************************************************************************************************/
+/*!***************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js ***!
+  \***************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js!./");
 
 
 /***/ }),
@@ -10938,4 +10810,4 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 /***/ })
 
 },[[3,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=about.js.map

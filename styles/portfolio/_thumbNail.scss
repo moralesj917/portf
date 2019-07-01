@@ -9,13 +9,14 @@
 .ThumbNail-left {
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   h2 {
     font-size: $h2-heading;
   }
 
   p {
-    width: 22vw;
+    width: 35vw;
     text-align: center;
     margin: 0 auto 1.7em auto;
   }
