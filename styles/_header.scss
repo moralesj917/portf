@@ -3,28 +3,44 @@ html, body {
 }
 
 .header {
-  position: absolute;
-  top: 4vh;
-  left: .5vw;
+  position: fixed;
+  top: 0;
   z-index: 1000;
+  padding: 1.5em 0 1em 0;
+  // animation: transitionBar;
+  // animation-duration: 5s;
+  // animation-delay: 0.1s; 
+  // animation-fill-mode: forwards;
+  width: 100vw;
 }
 
 .header-links {
   text-decoration: none;
-  color: 	#F5F5F5;
+  color: $green;
   font-size: 1.7em;
   padding-left: 2em;
   padding-right: 2em;
-  transition: color 1s;
+  transition: color .5s;
   border-bottom: none;
+  font-weight: 500;
+
+  &:hover {
+    color: black;
+  }
 }
 
-.header-links:hover {
-  color: #5d8950;
+.sticky {
+  position: fixed;
+  animation: transitionBar;
+  animation-duration: 1s;
+  animation-delay: 0.1s; 
+  animation-fill-mode: forwards;
+  width: 100%;
+  z-index: 1000;
+  // text-transform: uppercase;
 }
 
-.header-links-one,
-.header-links-two,
-.header-links-three {
-  border-right: 2px solid #A9A9A9;
+@keyframes transitionBar{
+  0%{background-color: transparent;}
+  100%{background-color:white; }
 }

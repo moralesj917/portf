@@ -1,9 +1,10 @@
-const withSass = require('@zeit/next-sass')
-module.exports = withSass()
-module.exports = {
-  target: 'serverless',
-  propert: withSass()
-};
+const withSass = require('@zeit/next-sass');
+module.exports = withSass({
+  webpack(config, options) {
+    return config
+  }, 
+  target: 'serverless'
+})
 
 // module.exports = withSass(
 //   {

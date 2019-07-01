@@ -9,18 +9,19 @@
   width: 20vw;
   display: flex;
   flex-direction: column;
-}
-.TechCard img,
-.TechCard h3, 
-.TechCard p {
-  margin: 0 auto 1em auto;
-}
 
-.TechCard p {
-  text-align: center;
-}
+  img,
+  h3,
+  p {
+    margin: 0 auto 1em auto;
+  }
 
-.TechCard img {
-  margin-top: 1em;
-  width: 40%;
+  p {
+    text-align: center;
+  }
+
+  img {
+    margin-top: 1em;
+    width: 40%;
+  }
 }

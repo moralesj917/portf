@@ -14,10 +14,6 @@ const Portfolio = () => (
       <link rel="icon" href="../static/images/tech-icon-18.jpg"></link>
     </Head>
 
-    <div className="black-bckgrnd">
-      <img className="background-nav" src="../static/images/photo1.jpeg"/>
-    </div>
-
     <SectionOne />
     <SectionTwo />
     <SectionThree />
