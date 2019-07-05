@@ -42,3 +42,49 @@
     margin-right: 1em;
   }
 }
+
+.mobile__buttons {
+  display: none;
+}
+
+@media (max-width: 450px){
+  .SectionOne {
+    padding: unset;
+    margin: unset;
+    width: 100vw;
+    border-bottom: none;
+  }
+
+  .SectionOne-bottom {
+    display: none;
+  }
+
+  .SectionOne-top {
+    background: white;
+    margin: 80vh auto 0 auto;
+    z-index: 2;
+    width: 60vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 50px 3px;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p{
+      font-size: .8em;
+      width: 90%;
+    }
+  }
+
+  .mobile__buttons {
+    display: inline-block;
+    background: $green;
+    width: 40%;
+    margin: 0 auto 2em auto;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: .5em;
+  }
+}

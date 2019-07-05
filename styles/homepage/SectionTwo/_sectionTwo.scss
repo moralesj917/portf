@@ -42,3 +42,35 @@
 .SectionTwo-bottom-image-three {
   height: 40vh;
 }
+
+@media (max-width: 450px) {
+
+  .SectionTwo {
+    display: flex;
+    margin: unset;
+    border-bottom: none;
+
+  }
+
+  .SectionTwo-bottom {
+    display: none;
+  }
+
+  .SectionTwo-top {
+    background: white;
+    z-index: 2;
+    width: 70vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 50px 3px;
+    margin: 0 auto;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p{
+      font-size: .8em;
+      width: 90%;
+    }
+  }
+}

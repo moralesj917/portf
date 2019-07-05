@@ -1,22 +1,41 @@
-.hero-one{
+.hero-one {
   width: 100vw;
+  height: 100vh;
+  background-image: url("/static/images/photo1.jpeg");
+  position: relative;
+  background-size: cover;
 }
 .hero-one-name {
   position: absolute;
   top: 30vh;
   font-size: 4rem;
   color: white;
-  left: calc(50vh - 85px);
+  left: calc(50vw - 73px);
   animation: transitionName;
   animation-duration: 1.5s;
   animation-delay: 0.3s; 
   animation-fill-mode: forwards;
   opacity: 0;
   text-transform: uppercase;
-
 }
 
 @keyframes transitionName{
   0%{opacity: 0;}
   100%{opacity: 1;}
+}
+
+@media (max-width: 450px) {
+  .hero-one {
+    height: 350vh;
+    background-image: url("/static/images/mobile_homescreen.jpeg");
+    background-attachment: fixed;
+    position: absolute;
+  }
+
+  .hero-one-name {
+    opacity: 1;
+    font-size: 2rem;
+    top: 30vh;
+    left: 8vw;
+  }
 }

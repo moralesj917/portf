@@ -134,7 +134,7 @@ var Footer = function Footer() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "footer-links footer-one"
   }, "Linkedin")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "https://github.com/moralesj917"
+    href: "https://github.com/jmoral1943"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "footer-links footer-two"
   }, "Github")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -226,6 +226,8 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: this.state.scrolled ? 'header sticky' : 'header',
         id: "myHeader"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "header__navbar"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -242,7 +244,15 @@ function (_React$Component) {
         href: "../../static/resume.pdf"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         className: "header-links header-links-four"
-      }, "Resume")));
+      }, "Resume"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "header__hamburgericon"
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "header__hamburgericon--bars"
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "header__hamburgericon--bars"
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "header__hamburgericon--bars"
+      })));
     }
   }]);
 
@@ -10786,7 +10796,7 @@ var About = function About() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!***************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fabout.js ***!
   \***************************************************************************************************************************************/
@@ -10809,5 +10819,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[4,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=about.js.map

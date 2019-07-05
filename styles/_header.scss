@@ -7,10 +7,6 @@ html, body {
   top: 0;
   z-index: 1000;
   padding: 1.5em 0 1em 0;
-  // animation: transitionBar;
-  // animation-duration: 5s;
-  // animation-delay: 0.1s; 
-  // animation-fill-mode: forwards;
   width: 100vw;
 }
 
@@ -37,10 +33,33 @@ html, body {
   animation-fill-mode: forwards;
   width: 100%;
   z-index: 1000;
-  // text-transform: uppercase;
 }
 
 @keyframes transitionBar{
   0%{background-color: transparent;}
-  100%{background-color:white; }
+  100%{background-color:black; }
+}
+
+.header__hamburgericon {
+  display: none;
+  position: sticky;
+
+}
+
+@media ( max-width:450px ) {
+  .header__hamburgericon {
+    display: inline-block;
+    margin-left: 5vw;
+  }
+
+  .header__navbar {
+    display: none;
+  }
+
+  .header__hamburgericon--bars {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+  }
 }

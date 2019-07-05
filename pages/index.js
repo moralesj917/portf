@@ -12,12 +12,13 @@ class Index extends React.Component {
       <Layout>
         <Head>
           <title>Home Page</title>
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta name="viewport" content="initial-scale=1.0, width=device-width " />
           <link rel="icon" href="../static/images/tech-icon-18.jpg"></link>
         </Head>
-         
-        <img className="hero-one" src="../static/images/photo1.jpeg"/>
-        <h2 className="hero-one-name">Jonathan Morales</h2>
+         <div>
+          <div className="hero-one" />
+          <h2 className="hero-one-name">Jonathan Morales</h2> 
+         </div>
         
         <SectionOne />
 

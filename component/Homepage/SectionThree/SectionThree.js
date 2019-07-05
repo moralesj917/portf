@@ -3,7 +3,9 @@ import SectionThreeCard from './SectionThreeCard';
 
 const SectionThree = () => (
   <div className="SectionThree">
-    <h2>Experience</h2>
+    <div className="SectionThree__heading">
+      <h2>Experience</h2>
+    </div>
 
     <div className="SectionThree-bottom">
       <SectionThreeCard 

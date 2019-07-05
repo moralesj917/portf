@@ -1,12 +1,17 @@
 import React from 'react';
 import HomePageCard from './HomePage-Card';
+import Link from 'next/link';
 
 const SectionOne = () => (
-  <div className="SectionOne">
+  <div className="SectionOne ">
     <div className="SectionOne-top">
       <h2>Skills</h2>
-      <p>As a full stack engineer, I wanted to get a well-rounded education. So I can build everything top to bottom. I really enjoy the whole software process from constipation to production.
+      <p> Front-end, Back-end, and Devops. As a full stack engineer, I needed to be as well-rounded to be
+        able to create and make the things that sparked my interest.
       </p>
+      <Link href="../../static/resume.pdf">
+        <a className="mobile__buttons">Resume</a>
+      </Link>
     </div>
     <div className="SectionOne-bottom">
       <HomePageCard 

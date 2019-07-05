@@ -8,7 +8,7 @@ const Footer = () => (
         <a className="footer-links footer-one">Linkedin</a>
       </Link>
 
-      <Link href="https://github.com/moralesj917">
+      <Link href="https://github.com/jmoral1943">
         <a className="footer-links footer-two">Github</a>
       </Link>
 

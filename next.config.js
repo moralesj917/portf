@@ -3,5 +3,5 @@ module.exports = withSass({
   webpack(config, options) {
     return config
   }, 
-  target: 'serverless'
+  // target: 'serverless'
 })
