@@ -5,7 +5,8 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      scrolled: false
+      scrolled: false,
+      openNav: false
     }
   }
 
@@ -25,14 +26,30 @@ class Header extends React.Component {
         scrolled: false
       })
     }
-   
+  }
+
+  handleSidePanel = () => {
+    if (!this.state.openNav) {
+      this.setState({
+        openNav: true
+      })
+      document.getElementById("header__sidepanel").style.width = "80vw";
+      document.getElementById("header__sidepanel").style.display = "flex";
+    } else {
+      this.setState({
+        openNav: false
+      })
+      document.getElementById("header__sidepanel").style.width = "0";
+    }
     
   }
 
   render() {
     return(
       <div className={this.state.scrolled ? 'header sticky' : 'header' } id="myHeader">
-        <div className="header__navbar">
+        <div id="header__sidepanel" className="header__navbar">
+          <a href="#" className="closebtn" onClick={this.handleSidePanel}>×</a>
+
           <Link href="/">
             <a className="header-links header-links-one">Home</a>
           </Link>
@@ -47,11 +64,12 @@ class Header extends React.Component {
           </Link>
         </div>
 
-        <div className="header__hamburgericon">
+        <div className="header__hamburgericon" onClick={this.handleSidePanel}>
           <div className="header__hamburgericon--bars"></div>
           <div className="header__hamburgericon--bars"></div>
           <div className="header__hamburgericon--bars"></div>
         </div>
+
       </div>
     );
   }

@@ -368,8 +368,26 @@ function (_React$Component) {
       }
     });
 
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleSidePanel", function () {
+      if (!_this.state.openNav) {
+        _this.setState({
+          openNav: true
+        });
+
+        document.getElementById("header__sidepanel").style.width = "80vw";
+        document.getElementById("header__sidepanel").style.display = "flex";
+      } else {
+        _this.setState({
+          openNav: false
+        });
+
+        document.getElementById("header__sidepanel").style.width = "0";
+      }
+    });
+
     _this.state = {
-      scrolled: false
+      scrolled: false,
+      openNav: false
     };
     return _this;
   }
@@ -386,8 +404,13 @@ function (_React$Component) {
         className: this.state.scrolled ? 'header sticky' : 'header',
         id: "myHeader"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        id: "header__sidepanel",
         className: "header__navbar"
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        href: "#",
+        className: "closebtn",
+        onClick: this.handleSidePanel
+      }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
         href: "/"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         className: "header-links header-links-one"
@@ -404,7 +427,8 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         className: "header-links header-links-four"
       }, "Resume"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "header__hamburgericon"
+        className: "header__hamburgericon",
+        onClick: this.handleSidePanel
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "header__hamburgericon--bars"
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
