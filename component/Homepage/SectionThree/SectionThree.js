@@ -9,9 +9,9 @@ const SectionThree = () => (
 
     <div className="SectionThree-bottom">
       <SectionThreeCard 
-        text="My experience began as a Software Engineer Appretince at SSI Schaefer a logistics company that uses 
-        java. I only got experience as a QA Engineer. Working with JVM and high profile clients that were worth 
-        millions of dollars."
+        text="My experience began as a Software Engineer Apprentice at SSI Schaefer a logistics company that uses 
+        java. I've received experience as a QA Engineer. Working with JVM and being the intermediatery betwen our high 
+        profile clients and the developers."
         job="SSI Schaefer"
       />
 
@@ -24,7 +24,7 @@ const SectionThree = () => (
       
       <SectionThreeCard 
         text="Since I was an apprentice for Schaefer they only paid for an Associates in IT with a concentration 
-        with Software Engineering but I left before taking any Sofware Engineering courses. I did complete and 
+        with Software Engineering but I left before taking any Software Engineering courses. I did complete and 
         achieve my Pc pro and Network certification from Testout."
         job="CPCC"
       />

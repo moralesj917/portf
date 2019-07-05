@@ -6,8 +6,8 @@ const SectionOne = () => (
   <div className="Port-Section">
     <ThumbNail
       title="Portfolio Website"
-      summary="As an aspiring Full-Stack Developer in todays market that is over satured in engineers. I had to find a way to 
-      showcase my skills as a Software Engineer and as well as implement the techinical knowledge I acquired for praticial use."
+      summary="As an aspiring Full-Stack Developer in todays market that is oversaturated in engineers. I had to find a way to 
+      showcase my skills as a Software Engineer and as well as implement the technical knowledge I acquired for practical use."
       appLink="www.jonmoral.com"
       imgFilePath="../../static/images/portfolio-website.png"
       githubRepo="https://github.com/moralesj917/Portf"

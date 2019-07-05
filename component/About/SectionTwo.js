@@ -12,7 +12,7 @@ const SectionTwo = () => (
       imgFilePath="../../static/images/golang_gopher.png"
     />
     <FutureCards 
-      title="Manchine Learning"
+      title="Machine Learning"
       summary="I'm energetic Software engineer who loves to solve problems. I enjoy working in a 
       team environment because it allows me to have different perspectives on writing and creating 
       code. I always love challenging myself to learn new skills as well as sharpening the skills i already have."

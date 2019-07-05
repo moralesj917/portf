@@ -6,7 +6,7 @@ const SectionThree = () => (
   <div className="Port-Section">
     <ThumbNail
       title="Socket.io Chat app"
-      summary="As I learning Node.js I wanted to make a fullstack web applications with real world applications. Using socket.io 
+      summary="As I learning Node.js I wanted to make a full-stack web applications with real world applications. Using socket.io 
       a real time engine that allows me to have the server listen for any client that connects to a certain chat room and send it to all 
       connected clients like any real-time chat application would."
       appLink="https://morales-node-chat-app.herokuapp.com/"

@@ -459,8 +459,8 @@ html, body {
     opacity: 1;
     font-size: 2rem;
     top: 30vh;
-    left: 8vw;
-    width: 100vw; } }
+    left: 5vw;
+    width: 95vw; } }
 
 .SectionOne {
   display: flex;
