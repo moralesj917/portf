@@ -12,6 +12,7 @@ const About = () => {
           <title>About</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+      <div className="portfolio__background"></div>
       
       <SectionOne />
       <hr />

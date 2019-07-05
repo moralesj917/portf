@@ -3,7 +3,7 @@ import ThumbNail from './WebApps/ThumbNail';
 import TechCard from './WebApps/TechCard';
 
 const SectionTwo = () => (
-  <div >
+  <div className="Port-Section">
     <ThumbNail
       title="Expensify App"
       summary="One of the toughest applications that I have made used React.js with Redux. Pushing the limit of the knowledge I 
@@ -14,6 +14,7 @@ const SectionTwo = () => (
       imgFilePath="../../static/images/expensify.png"
       githubRepo="hhttps://github.com/moralesj917/Expensify-app"
     />
+    <div className="mobileporf__toolsHeading"><h2>Tools used</h2></div>
     <TechCard
       icons={["../../static/images/react-pic.png", "../../static/images/redux.png", "../../static/images/enzyme.png", 
       "../../static/images/firebase.png"]}

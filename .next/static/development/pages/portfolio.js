@@ -19,14 +19,16 @@ __webpack_require__.r(__webpack_exports__);
 
 var SectionOne = function SectionOne() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Port-SectionOne"
+    className: "Port-Section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "Portfolio Website",
     summary: "As an aspiring Full-Stack Developer in todays market that is over satured in engineers. I had to find a way to  showcase my skills as a Software Engineer and as well as implement the techinical knowledge I acquired for praticial use.",
     appLink: "www.jonmoral.com",
     imgFilePath: "../../static/images/portfolio-website.png",
     githubRepo: "https://github.com/moralesj917/Portf"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileporf__toolsHeading"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tools used")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     icons: ["../../static/images/react-pic.png", "../../static/images/next.png", "../../static/images/now.png"],
     titles: ["React", "Next.js", "Zeit / Now"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
@@ -56,13 +58,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var SectionThree = function SectionThree() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Port-Section"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "Socket.io Chat app",
     summary: "As I learning Node.js I wanted to make a fullstack web applications with real world applications. Using socket.io  a real time engine that allows me to have the server listen for any client that connects to a certain chat room and send it to all  connected clients like any real-time chat application would.",
     appLink: "https://morales-node-chat-app.herokuapp.com/",
     imgFilePath: "../../static/images/chat-app.png",
     githubRepo: "https://github.com/moralesj917/Chat-app"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileporf__toolsHeading"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tools used")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     icons: ["../../static/images/node.png", "../../static/images/socketio.png", "../../static/images/express.svg"],
     titles: ["Node.js", "Socket.io", "Express.js"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
@@ -92,13 +98,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var SectionTwo = function SectionTwo() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Port-Section"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_ThumbNail__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "Expensify App",
     summary: "One of the toughest applications that I have made used React.js with Redux. Pushing the limit of the knowledge I  have about React. Using Google's Firebase as my applications database. While creating over 60 automated test cases, with Jest  and Airbnb's Enzyme to take snapshots as well as giving the confidence to update the application and ensure that I didn't break any  part of my application.",
     appLink: "https://morales-expensify.herokuapp.com/",
     imgFilePath: "../../static/images/expensify.png",
     githubRepo: "hhttps://github.com/moralesj917/Expensify-app"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mobileporf__toolsHeading"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tools used")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WebApps_TechCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     icons: ["../../static/images/react-pic.png", "../../static/images/redux.png", "../../static/images/enzyme.png", "../../static/images/firebase.png"],
     titles: ["React.js", "Redux", "Airbnb Enzyme with Jest", "Firebase"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
@@ -10892,14 +10902,18 @@ var Portfolio = function Portfolio() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "icon",
     href: "../static/images/tech-icon-18.jpg"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_Portfolio_SectionOne__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_Portfolio_SectionTwo__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_Portfolio_SectionThree__WEBPACK_IMPORTED_MODULE_6__["default"], null));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "portfolio__background"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Portfolio"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_Portfolio_SectionOne__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_Portfolio_SectionTwo__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_component_Portfolio_SectionThree__WEBPACK_IMPORTED_MODULE_6__["default"], null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Portfolio);
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Fportfolio.js ***!
   \***********************************************************************************************************************************************/
@@ -10922,5 +10936,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=portfolio.js.map

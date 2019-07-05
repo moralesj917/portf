@@ -18,6 +18,23 @@
   img {
     margin-bottom: 1em;
     margin-top: 1em;
-    width: 8vw;
+    height: 10vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .TechCard {
+    flex-direction: column;
+  }
+
+  .TechCard-ind {
+    h3 {
+      text-align: center;
+    }
+  
+    img {
+      height: 15vh;
+      width: unset;
+    }
   }
 }

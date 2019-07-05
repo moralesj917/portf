@@ -14,9 +14,13 @@ const Portfolio = () => (
       <link rel="icon" href="../static/images/tech-icon-18.jpg"></link>
     </Head>
 
-    <SectionOne />
-    <SectionTwo />
-    <SectionThree />
+    <div className="portfolio__background"></div>
+    <div className="Portfolio">
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
+    </div>
+    
 
   </Layout>
 );

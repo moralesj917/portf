@@ -3,7 +3,7 @@ import ThumbNail from './WebApps/ThumbNail';
 import TechCard from './WebApps/TechCard';
 
 const SectionThree = () => (
-  <div >
+  <div className="Port-Section">
     <ThumbNail
       title="Socket.io Chat app"
       summary="As I learning Node.js I wanted to make a fullstack web applications with real world applications. Using socket.io 
@@ -13,6 +13,7 @@ const SectionThree = () => (
       imgFilePath="../../static/images/chat-app.png"
       githubRepo="https://github.com/moralesj917/Chat-app"
     />
+    <div className="mobileporf__toolsHeading"><h2>Tools used</h2></div>
     <TechCard
       icons={["../../static/images/node.png", "../../static/images/socketio.png", "../../static/images/express.svg"]}
       titles={["Node.js", "Socket.io", "Express.js"]}

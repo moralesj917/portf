@@ -324,7 +324,7 @@ html, body {
   border-bottom: none;
   font-weight: 500; }
   .header-links:hover {
-    color: black; }
+    color: white; }
 
 .sticky {
   position: fixed;
@@ -434,7 +434,7 @@ html, body {
   top: 30vh;
   font-size: 4rem;
   color: white;
-  left: calc(50vw - 73px);
+  left: 25vw;
   animation: transitionName;
   animation-duration: 1.5s;
   animation-delay: 0.3s;
@@ -636,8 +636,31 @@ html, body {
 hr {
   width: 95%; }
 
-.Port-SectionOne {
-  margin-top: 3em; }
+.portfolio__background {
+  background: white;
+  height: 13vh;
+  width: 100vw; }
+
+.mobileporf__toolsHeading {
+  display: none; }
+
+@media (max-width: 450px) {
+  .portfolio__background {
+    display: block;
+    background-color: black;
+    height: 13vh;
+    width: 100vw; }
+  .Portfolio {
+    display: flex;
+    flex-direction: column; }
+  .Port-Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .mobileporf__toolsHeading {
+    display: block; }
+    .mobileporf__toolsHeading h2 {
+      font-size: 2.5em; } }
 
 .ThumbNail {
   display: flex;
@@ -676,6 +699,26 @@ hr {
     text-decoration: none;
     color: black; }
 
+@media (max-width: 450px) {
+  .ThumbNail {
+    flex-direction: column; }
+  .ThumbNail-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .ThumbNail-left h2 {
+      font-size: 2.5em; }
+    .ThumbNail-left p {
+      width: 75vw;
+      text-align: center;
+      margin: 0 auto 1.7em auto; }
+    .ThumbNail-left a {
+      width: 30vw; }
+  .ThumbNail-right img {
+    width: 70vw;
+    margin-bottom: 1em;
+    margin-top: 2em; } }
+
 .TechCard {
   width: 80vw;
   display: flex;
@@ -692,7 +735,16 @@ hr {
   .TechCard-ind img {
     margin-bottom: 1em;
     margin-top: 1em;
-    width: 8vw; }
+    height: 10vh; }
+
+@media (max-width: 450px) {
+  .TechCard {
+    flex-direction: column; }
+  .TechCard-ind h3 {
+    text-align: center; }
+  .TechCard-ind img {
+    height: 15vh;
+    width: unset; } }
 
 .About-SectionOne {
   margin-top: 5em;
@@ -736,6 +788,25 @@ hr {
   .About-SectionOne-right img {
     height: 50vh; }
 
+@media (max-width: 450px) {
+  .About-SectionOne {
+    flex-direction: column;
+    margin-bottom: unset; }
+  .About-SectionOne-left {
+    width: 100vw; }
+    .About-SectionOne-left p {
+      width: 80vw; }
+    .About-SectionOne-left img {
+      width: 70vw; }
+  .About-SectionOne-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw; }
+    .About-SectionOne-right img {
+      width: 100vw;
+      height: unset; } }
+
 .About-SectionTwo {
   display: flex;
   flex-direction: column;
@@ -760,6 +831,31 @@ hr {
   .FutureCards-left p {
     width: 32vw;
     margin-left: 4em; }
+
+@media (max-width: 450px) {
+  .About-SectionTwo {
+    width: 100vw; }
+    .About-SectionTwo h1 {
+      font-size: 2.5em; }
+  .FutureCards {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center; }
+    .FutureCards img {
+      height: 40vh;
+      width: unset;
+      margin-left: 0; }
+  .FutureCards-left {
+    width: 80vw;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .FutureCards-left h2 {
+      font-size: 2em; }
+    .FutureCards-left p {
+      width: 80vw;
+      margin-left: 0; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
