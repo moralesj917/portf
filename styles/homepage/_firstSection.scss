@@ -24,12 +24,14 @@
   100%{opacity: 1;}
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .hero-one {
-    height: 340vh;
-    background-image: url("/static/images/mobile_homescreen.jpeg");
+    height: 90vh;
+    background-image: url("/static/images/mobile_homescreen.jpeg") ;
     background-attachment: fixed;
     position: absolute;
+    background-size: contain;
+
   }
 
   .hero-one-name {
@@ -37,5 +39,6 @@
     font-size: 2rem;
     top: 30vh;
     left: 8vw;
+    width: 100vw;
   }
 }
