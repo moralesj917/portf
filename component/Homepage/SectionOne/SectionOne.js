@@ -25,7 +25,7 @@ const SectionOne = () => (
       />
 
       <HomePageCard
-        title="GraphQL"
+        title="GraphQL & SQL"
         paragraph="Mostly everything is on mobile most of these days, that is why I made it my goal to understand a new technique of getting and transmitting my data."
       />
     </div>

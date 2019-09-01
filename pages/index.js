@@ -5,9 +5,30 @@ import '../styles/styles.scss';
 import SectionOne from '../component/Homepage/SectionOne/SectionOne';
 import SectionTwo from '../component/Homepage/SectionTwo/SectionTwo';
 import SectionThree from '../component/Homepage/SectionThree/SectionThree';
+import SelectionBar from '../component/Homepage/SelectionBar/SelectionBar';
 
 class Index extends React.Component {
+  state = {
+    active: "skills"
+  }
+
+  handleStatus = (status) => {
+    this.setState({
+      active: status
+    })
+  }
+
   render() {
+    let content = <SectionOne />
+
+    if (this.state.active === "skills") {
+      content = <SectionOne />
+    } else if (this.state.active === "projects") {
+      content = <SectionTwo />
+    } else if (this.state.active === "experience") {
+      content = <SectionThree />
+    }
+
     return (
       <Layout>
         <Head>
@@ -21,12 +42,12 @@ class Index extends React.Component {
             <div className="hero-one" />
             <h2 className="hero-one-name">Jonathan Morales</h2> 
           </div>
+          <SelectionBar handleStatus={this.handleStatus}/>
+          {
+            this.state.active && 
+            content
+          }
           
-          <SectionOne />
-
-          <SectionTwo />
-
-          <SectionThree />
         </main>
       </Layout>
     );

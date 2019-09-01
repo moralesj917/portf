@@ -317,18 +317,17 @@ html, body {
 .header-links {
   text-decoration: none;
   color: white;
-  font-size: 1.7em;
-  padding-left: 2em;
-  padding-right: 2em;
-  transition: color .5s;
-  border-bottom: none;
-  font-weight: 500;
+  font-size: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   letter-spacing: 3px; }
 
 .header__navbar {
   background-color: #111;
   margin: 0;
-  padding: 1em; }
+  padding: 1em;
+  display: flex;
+  justify-content: flex-end; }
 
 .sticky {
   position: fixed;
@@ -407,6 +406,23 @@ html, body {
     top: 30vh;
     left: 5vw;
     width: 95vw; } }
+
+.SelectionBar {
+  width: 100vw;
+  background-color: #111;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.SelectionBar__button {
+  border: none;
+  color: white;
+  background: none;
+  font-size: 1.6em;
+  padding: 1em; }
+
+.SelectionBar__button--center {
+  margin-left: 2.8em; }
 
 .SectionOne {
   display: flex;

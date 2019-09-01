@@ -1,0 +1,19 @@
+.SelectionBar {
+  width: 100vw;
+  background-color: #111; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.SelectionBar__button {
+  border: none;
+  color: white;
+  background: none;
+  font-size: 1.6em;
+  padding: 1em;
+}
+
+.SelectionBar__button--center {
+  margin-left: 2.8em;
+}
