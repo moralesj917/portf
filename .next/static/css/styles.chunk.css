@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Chilanka&display=swap);
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -316,70 +316,26 @@ html, body {
 
 .header-links {
   text-decoration: none;
-  color: #3e76d5;
+  color: white;
   font-size: 1.7em;
   padding-left: 2em;
   padding-right: 2em;
   transition: color .5s;
   border-bottom: none;
-  font-weight: 500; }
-  .header-links:hover {
-    color: white; }
+  font-weight: 500;
+  letter-spacing: 3px; }
+
+.header__navbar {
+  background-color: #111;
+  margin: 0;
+  padding: 1em; }
 
 .sticky {
   position: fixed;
-  animation: transitionBar;
-  animation-duration: 1s;
-  animation-delay: 0.1s;
+  background: #111;
   animation-fill-mode: forwards;
   width: 100%;
   z-index: 1000; }
-
-@keyframes transitionBar {
-  0% {
-    background-color: transparent; }
-  100% {
-    background-color: black; } }
-
-.header__hamburgericon {
-  display: none;
-  position: sticky; }
-
-.closebtn {
-  display: none; }
-
-@media (max-width: 450px) {
-  .header__hamburgericon {
-    display: inline-block;
-    margin-left: 5vw;
-    cursor: pointer; }
-  .header__navbar {
-    display: flex;
-    width: 0;
-    position: fixed;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    z-index: 2;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s; }
-  .header__hamburgericon--bars {
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    margin: 6px 0; }
-  .closebtn {
-    display: block;
-    position: absolute;
-    color: white;
-    text-decoration: none;
-    font-size: 3em;
-    top: 0;
-    right: 3vw; } }
 
 .footer {
   display: flex;
@@ -425,7 +381,7 @@ html, body {
 .hero-one {
   width: 100vw;
   height: 100vh;
-  background-image: url("/static/images/photo1.jpeg");
+  background-image: url("/static/images/photo1.webp");
   position: relative;
   background-size: cover; }
 
@@ -435,18 +391,8 @@ html, body {
   font-size: 4rem;
   color: white;
   left: 25vw;
-  animation: transitionName;
-  animation-duration: 1.5s;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
-  opacity: 0;
-  text-transform: uppercase; }
-
-@keyframes transitionName {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
+  text-transform: uppercase;
+  font-family: 'Chilanka', cursive; }
 
 @media screen and (max-width: 450px) {
   .hero-one {

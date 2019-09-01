@@ -1,7 +1,7 @@
 .hero-one {
   width: 100vw;
   height: 100vh;
-  background-image: url("/static/images/photo1.jpeg");
+  background-image: url("/static/images/photo1.webp");
   position: relative;
   background-size: cover;
 }
@@ -11,17 +11,8 @@
   font-size: 4rem;
   color: white;
   left: 25vw;
-  animation: transitionName;
-  animation-duration: 1.5s;
-  animation-delay: 0.3s; 
-  animation-fill-mode: forwards;
-  opacity: 0;
   text-transform: uppercase;
-}
-
-@keyframes transitionName{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
+  font-family: 'Chilanka', cursive;
 }
 
 @media screen and (max-width: 450px) {

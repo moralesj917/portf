@@ -1,8 +1,8 @@
 @import 'base/normalize';
 @import 'base/base';
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import './header';
-@import './footer';
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Chilanka&display=swap');
+@import 'layout/header';
+@import 'layout/footer';
 @import 'homepage/firstSection';
 @import 'homepage/SectionOne/sectionOne';
 @import 'homepage/SectionTwo/sectionTwo';

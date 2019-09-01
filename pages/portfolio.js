@@ -14,15 +14,14 @@ const Portfolio = () => (
       <meta name="Description" content="Projects page to Jonathan Morales's portfolio" />
       <link rel="icon" href="../static/images/tech-icon-18.jpg"></link>
     </Head>
-
-    <div className="portfolio__background"></div>
-    <div className="Portfolio">
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
-    </div>
-    
-
+    <main>
+      <div className="portfolio__background"></div>
+      <div className="Portfolio">
+        <SectionOne />
+        <SectionTwo />
+        <SectionThree />
+      </div>
+    </main>
   </Layout>
 );
 

@@ -12,12 +12,13 @@ const About = () => (
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="Description" content="About page to Jonathan Morales's portfolio" />
     </Head>
-
-    <div className="portfolio__background"></div>
+    <main>
+       <div className="portfolio__background"></div>
     
-    <SectionOne />
-    <hr />
-    <SectionTwo />
+      <SectionOne />
+      <hr />
+      <SectionTwo />
+    </main>
   </Layout>
 );
 

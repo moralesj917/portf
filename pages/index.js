@@ -16,16 +16,18 @@ class Index extends React.Component {
           <meta name="Description" content="Home page to Jonathan Morales's portfolio" />
           <link rel="icon" href="../static/images/tech-icon-18.jpg"></link>
         </Head>
-         <div>
-          <div className="hero-one" />
-          <h2 className="hero-one-name">Jonathan Morales</h2> 
-         </div>
-        
-        <SectionOne />
+        <main>
+          <div>
+            <div className="hero-one" />
+            <h2 className="hero-one-name">Jonathan Morales</h2> 
+          </div>
+          
+          <SectionOne />
 
-        <SectionTwo />
+          <SectionTwo />
 
-        <SectionThree />
+          <SectionThree />
+        </main>
       </Layout>
     );
   };
