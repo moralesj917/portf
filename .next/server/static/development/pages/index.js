@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -116,7 +116,7 @@ var SectionOne = function SectionOne() {
     className: "SectionOne"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "SectionOne-top"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Front-end, Back-end, and Devops. As a Full stack engineer, I needed to be a well-rounded indiviual that has the ability and knowledge to be able to create a nice UI but as well as be able to create end points for my API's. Not to forgot as well that with a world that is leaning on techonology more and more everyday comes with the neccessity to be able to deploy, choose the best solution, and trouble shoot any problems that may occur.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Front-end, Back-end, and DevOps. As a Full-stack engineer, I needed to be a well-rounded individual that has the ability and knowledge to be able to create a nice UI but as well as be able to create endpoints for my API's. Not to forget as well that with a world that is leaning on technology more and more every day comes with the necessity to be able to deploy, choose the best solution, and troubleshoots any problems that may occur.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "React",
     progress: "90%",
     color: "#61DBFB"
@@ -247,6 +247,31 @@ var SectionThreeCard = function SectionThreeCard(props) {
 
 /***/ }),
 
+/***/ "./component/Homepage/SectionTwo/ProjectCard.js":
+/*!******************************************************!*\
+  !*** ./component/Homepage/SectionTwo/ProjectCard.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var ProjectCard = function ProjectCard(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "ProjectCard"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, props.list && props.list.map(function (item) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, item);
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ProjectCard);
+
+/***/ }),
+
 /***/ "./component/Homepage/SectionTwo/SectionTwo.js":
 /*!*****************************************************!*\
   !*** ./component/Homepage/SectionTwo/SectionTwo.js ***!
@@ -258,34 +283,57 @@ var SectionThreeCard = function SectionThreeCard(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ProjectCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProjectCard */ "./component/Homepage/SectionTwo/ProjectCard.js");
 
 
 
 var SectionTwo = function SectionTwo() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "SectionTwo"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionTwo-top"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Projects Gallery"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I have worked on various projects to help expand my understanding of the tools and languages that I have learned. I have projects from node.js to projects involving React. As well as involving the various amount of tools to boost the performance as well as the effectiveness of my applications."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "../../static/resume.pdf"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "mobile__buttons"
-  }, "Portfolio"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionTwo-bottom"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "SectionTwo__title "
+  }, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SectionTwo-images"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "SectionTwo-bottom-image-one",
-    src: "../../../static/images/expensify-project.png",
-    alt: "Expensify app screenshot"
+    className: "SectionTwo__images",
+    src: "../../../static/images/gopher.webp",
+    alt: "Golang Gopher"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "SectionTwo-bottom-image-two",
-    src: "../../../static/images/node-chat-app.png",
-    alt: "Web chat app screenshot"
+    className: "SectionTwo__images",
+    src: "../../../static/images/enzyme.png",
+    alt: "AirBnB logo"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "SectionTwo-bottom-image-three",
-    src: "../../../static/images/weather-app.png",
-    alt: "Weather app screenshot"
+    className: "SectionTwo__images",
+    src: "../../../static/images/docker.png",
+    alt: "Docker logo"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "SectionTwo__images",
+    src: "../../../static/images/node.png",
+    alt: "Node js logo"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "SectionTwo__images",
+    src: "../../../static/images/react-pic.png",
+    alt: "React js logo"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "SectionTwo__images",
+    src: "../../../static/images/redux.png",
+    alt: "Redux logo"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "SectionTwo__images",
+    src: "../../../static/images/socketio.png",
+    alt: "Socket io logo"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "SectionTwo__images",
+    src: "../../../static/images/mysql.svg",
+    alt: "MySQL logo"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Projects"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ProjectCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Golang",
+    list: ['Consume an API', 'Create a REST API', 'Create a Network Command Line Interface', 'Use Golang with an ORM', 'Use Golang with MySQL', 'Websockets with Golang', 'Oauth2 authentication with Golang']
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ProjectCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "React & Redux",
+    list: ['E-commerce Site', 'Expense Tracker with Login authenctation', 'Comment Section', 'Portfolio Website']
   })));
 };
 
@@ -1374,7 +1422,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

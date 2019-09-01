@@ -498,31 +498,24 @@ button {
   padding-bottom: 5em;
   padding-top: 2em; }
 
-.SectionTwo-top {
+.SectionTwo__title {
+  text-align: center;
+  font-size: 2.5em; }
+
+.SectionTwo-images {
+  width: 90vw;
   display: flex;
-  flex-direction: column;
-  text-align: center; }
-  .SectionTwo-top h2 {
-    font-size: 2.5em; }
-  .SectionTwo-top p {
-    width: 50%;
-    margin: 0 auto 2em auto;
-    font-size: 1.1em; }
+  justify-content: space-around;
+  margin: 0 auto 2em auto; }
 
-.SectionTwo-bottom {
+.SectionTwo__images {
+  height: 80px; }
+
+.Projects {
   display: flex;
-  justify-content: space-evenly; }
-
-.SectionTwo-bottom-image-one {
-  height: 40vh;
-  margin-left: 1em; }
-
-.SectionTwo-bottom-image-two {
-  height: 40vh;
-  margin-left: 1em; }
-
-.SectionTwo-bottom-image-three {
-  height: 40vh; }
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto; }
 
 @media (max-width: 450px) {
   .SectionTwo {
@@ -543,6 +536,13 @@ button {
     .SectionTwo-top p {
       font-size: .8em;
       width: 90%; } }
+
+.ProjectCard {
+  margin-left: 1em; }
+  .ProjectCard h3 {
+    font-size: 2em; }
+  .ProjectCard li {
+    font-size: 1.3em; }
 
 .SectionThree {
   padding-bottom: 4em;

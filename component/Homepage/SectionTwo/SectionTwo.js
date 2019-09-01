@@ -1,22 +1,43 @@
 import React from 'react';
-import Link from 'next/link';
+import ProjectCard from './ProjectCard';
 
 const SectionTwo = () => (
   <div className="SectionTwo">
-    <div className="SectionTwo-top">
-      <h2>Projects Gallery</h2>
-      <p>I have worked on various projects to help expand my understanding of the tools and languages 
-        that I have learned. I have projects from node.js to projects involving React. As well as involving 
-        the various amount of tools to boost the performance as well as the effectiveness of my applications.
-      </p>
-      <Link href="../../static/resume.pdf">
-        <a className="mobile__buttons">Portfolio</a>
-      </Link>
+    <h2 className="SectionTwo__title ">Projects</h2>
+    <div className="SectionTwo-images">
+      <img className="SectionTwo__images" src="../../../static/images/gopher.webp" alt="Golang Gopher"/>
+      <img className="SectionTwo__images" src="../../../static/images/enzyme.png" alt="AirBnB logo" />
+      <img className="SectionTwo__images" src="../../../static/images/docker.png" alt="Docker logo" />
+      <img className="SectionTwo__images" src="../../../static/images/node.png" alt="Node js logo" />
+      <img className="SectionTwo__images" src="../../../static/images/react-pic.png" alt="React js logo" />
+      <img className="SectionTwo__images" src="../../../static/images/redux.png" alt="Redux logo" />
+      <img className="SectionTwo__images" src="../../../static/images/socketio.png" alt="Socket io logo" />
+      <img className="SectionTwo__images" src="../../../static/images/mysql.svg" alt="MySQL logo" />
     </div>
-    <div className="SectionTwo-bottom">
-      <img className="SectionTwo-bottom-image-one" src="../../../static/images/expensify-project.png" alt="Expensify app screenshot"/>
-      <img className="SectionTwo-bottom-image-two" src="../../../static/images/node-chat-app.png" alt="Web chat app screenshot"/>
-      <img className="SectionTwo-bottom-image-three" src="../../../static/images/weather-app.png" alt="Weather app screenshot"/>
+
+    <div className="Projects">
+      <ProjectCard    
+        title="Golang"
+        list={[
+          'Consume an API',
+          'Create a REST API',
+          'Create a Network Command Line Interface',
+          'Use Golang with an ORM',
+          'Use Golang with MySQL',
+          'Websockets with Golang',
+          'Oauth2 authentication with Golang'
+        ]}
+      />
+
+      <ProjectCard    
+        title="React & Redux"
+        list={[
+          'E-commerce Site',
+          'Expense Tracker with Login authenctation',
+          'Comment Section',
+          'Portfolio Website'
+        ]}
+      />
     </div>
   </div>
 );
