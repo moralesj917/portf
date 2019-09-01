@@ -116,13 +116,7 @@ var SectionOne = function SectionOne() {
     className: "SectionOne"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "SectionOne-top"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Front-end, Back-end, and Devops. As a full stack engineer, I needed to be as well-rounded to be able to create and make the things that sparked my interest."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "../../static/resume.pdf"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "mobile__buttons"
-  }, "Resume"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionOne-bottom"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Front-end, Back-end, and Devops. As a Full stack engineer, I needed to be a well-rounded indiviual that has the ability and knowledge to be able to create a nice UI but as well as be able to create end points for my API's. Not to forgot as well that with a world that is leaning on techonology more and more everyday comes with the neccessity to be able to deploy, choose the best solution, and trouble shoot any problems that may occur.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "React",
     progress: "90%",
     color: "#61DBFB"

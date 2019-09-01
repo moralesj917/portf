@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat|Chilanka&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Text|Chilanka&display=swap);
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -305,7 +305,7 @@ template {
   display: none; }
 
 html, body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Red Hat Text', sans-serif; }
 
 .header {
   position: fixed;
@@ -447,6 +447,8 @@ button {
   justify-content: space-between;
   width: 75vw;
   margin: 0 auto; }
+  .SkillCard h3 {
+    font-size: 1.1em; }
 
 .SkillCard-progress {
   width: 800px;
@@ -473,59 +475,19 @@ button {
   flex-direction: column;
   text-align: center; }
   .SectionOne-top h2 {
-    font-size: 2.5em; }
+    font-size: 2em; }
   .SectionOne-top p {
-    width: 50%;
+    width: 70%;
     margin: 0 auto 2em auto;
-    font-size: 1.1em; }
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 1.6; }
 
 .SectionOne-bottom {
   display: flex;
   justify-content: space-evenly;
   margin-left: 2em;
   margin-right: 2em; }
-
-.HomePageCard {
-  display: flex; }
-  .HomePageCard img {
-    width: 60px;
-    height: 40px;
-    align-self: flex-start;
-    margin-top: 1em;
-    margin-right: 1em; }
-
-.mobile__buttons {
-  display: none; }
-
-@media (max-width: 450px) {
-  .SectionOne {
-    padding: unset;
-    margin: unset;
-    width: 100vw;
-    border-bottom: none; }
-  .SectionOne-bottom {
-    display: none; }
-  .SectionOne-top {
-    background: white;
-    margin: 80vh auto 0 auto;
-    z-index: 2;
-    width: 60vw;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px -3px; }
-    .SectionOne-top h2 {
-      font-size: 1.5rem; }
-    .SectionOne-top p {
-      font-size: .8em;
-      width: 90%; }
-  .mobile__buttons {
-    display: inline-block;
-    background: #3e76d5;
-    width: 40%;
-    margin: 0 auto 2em auto;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    padding: .5em; } }
 
 .SectionTwo {
   display: flex;

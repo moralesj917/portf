@@ -14,13 +14,15 @@
   text-align: center;
 
   h2 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   p{
-    width: 50%;
+    width: 70%;
     margin: 0 auto 2em auto;
-    font-size: 1.1em;
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 1.6;
   }
 }
 
@@ -29,62 +31,4 @@
   justify-content: space-evenly;
   margin-left: 2em;
   margin-right: 2em;
-}
-
-.HomePageCard {
-  display: flex;
-
-  img {
-    width: 60px;
-    height: 40px;
-    align-self: flex-start;
-    margin-top: 1em;
-    margin-right: 1em;
-  }
-}
-
-.mobile__buttons {
-  display: none;
-}
-
-@media (max-width: 450px){
-  .SectionOne {
-    padding: unset;
-    margin: unset;
-    width: 100vw;
-    border-bottom: none;
-  }
-
-  .SectionOne-bottom {
-    display: none;
-  }
-
-  .SectionOne-top {
-    background: white;
-    margin: 80vh auto 0 auto;
-    z-index: 2;
-    width: 60vw;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px -3px;
-
-    h2 {
-      font-size: 1.5rem;
-    }
-
-    p{
-      font-size: .8em;
-      width: 90%;
-    }
-  }
-
-  .mobile__buttons {
-    display: inline-block;
-    background: $green;
-    width: 40%;
-    margin: 0 auto 2em auto;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    padding: .5em;
-  }
 }

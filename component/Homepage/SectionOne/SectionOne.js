@@ -6,20 +6,12 @@ const SectionOne = () => (
   <div className="SectionOne">
     <div className="SectionOne-top">
       <h2>Skills</h2>
-      <p> Front-end, Back-end, and Devops. As a full stack engineer, I needed to be as well-rounded to be
-        able to create and make the things that sparked my interest.
+      <p> Front-end, Back-end, and Devops. As a Full stack engineer, I needed to be a well-rounded indiviual 
+        that has the ability and knowledge to be able to create a nice UI but as well as be
+        able to create end points for my API's. Not to forgot as well that with a world
+        that is leaning on techonology more and more everyday comes with the neccessity to
+        be able to deploy, choose the best solution, and trouble shoot any problems that may occur.
       </p>
-      <Link href="../../static/resume.pdf">
-        <a className="mobile__buttons">Resume</a>
-      </Link>
-    </div>
-    <div className="SectionOne-bottom">
-      <div>
-
-      </div>
-      <div>
-        
-      </div>
     </div>
 
     <SkillCard
