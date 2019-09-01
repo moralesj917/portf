@@ -40,7 +40,9 @@ class Index extends React.Component {
         <main>
           <div>
             <div className="hero-one" />
-            <h2 className="hero-one-name">Jonathan Morales</h2> 
+            <div className="hero-one-name">
+              <h2 className="hero-one-name__title">Jonathan Morales</h2>
+            </div>
           </div>
           <SelectionBar handleStatus={this.handleStatus}/>
           {

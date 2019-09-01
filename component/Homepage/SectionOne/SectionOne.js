@@ -1,9 +1,9 @@
 import React from 'react';
-import HomePageCard from './HomePage-Card';
 import Link from 'next/link';
+import SkillCard from './SkillCard';
 
 const SectionOne = () => (
-  <div className="SectionOne ">
+  <div className="SectionOne">
     <div className="SectionOne-top">
       <h2>Skills</h2>
       <p> Front-end, Back-end, and Devops. As a full stack engineer, I needed to be as well-rounded to be
@@ -14,21 +14,49 @@ const SectionOne = () => (
       </Link>
     </div>
     <div className="SectionOne-bottom">
-      <HomePageCard 
-        title="Front-end" 
-        paragraph="I learned HTML, CSS, and vanilla JavaScript. To make my web pages interactive. But I added some JS frameworks like React.js."
-      />
+      <div>
 
-      <HomePageCard 
-        title="Back-end"
-        paragraph="I know to use Node.js as well Express.js to make server including using Golang to combine with React to make a super fast application that is well made."
-      />
-
-      <HomePageCard
-        title="GraphQL & SQL"
-        paragraph="Mostly everything is on mobile most of these days, that is why I made it my goal to understand a new technique of getting and transmitting my data."
-      />
+      </div>
+      <div>
+        
+      </div>
     </div>
+
+    <SkillCard
+      title="React"
+      progress="90%"
+      color="#61DBFB"
+    />
+    <SkillCard
+      title="GoLang"
+      progress="70%"
+      color="#29BEB0"
+    />
+    <SkillCard
+      title="AWS"
+      progress="60%"
+      color="#F79C34"
+    />
+    <SkillCard
+      title="JavaScript"
+      progress="90%"
+      color="#F0DB4F"
+    />
+    <SkillCard
+      title="Docker"
+      progress="10%"
+      color="#0db7ed"
+    />
+    <SkillCard
+      title="MySql"
+      progress="60%"
+      color="#F29111"
+    />
+    <SkillCard
+      title="HTML/CSS"
+      progress="90%"
+      color="#F16529"
+    />
   </div>
 );
 

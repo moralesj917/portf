@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 const Footer = () => (
-  <div className="footer">
+  <footer className="footer">
     <div className="footer-first">
       <Link href="https://www.linkedin.com/in/jonathan-m-23327b118/">
         <a className="footer-links footer-one">Linkedin</a>
@@ -24,7 +24,7 @@ const Footer = () => (
     <div className="footer-third">
       <p>&copy; Jonathan Morales</p>
     </div>
-  </div>
+  </footer>
 );
 
 export default Footer;

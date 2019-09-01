@@ -8,9 +8,12 @@ html, body {
   z-index: 1000;
   padding: 1.5em 0 1em 0;
   width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #111;
 }
 
-.header-links {
+.header-link {
   text-decoration: none;
   color: white;
   font-size: 1.5em;
@@ -20,11 +23,16 @@ html, body {
 }
 
 .header__navbar {
-  background-color: #111;
   margin: 0;
   padding: 1em;
   display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header-links {
   justify-content: flex-end;
+  display: flex;
 }
 
 .sticky {
@@ -33,4 +41,12 @@ html, body {
   animation-fill-mode: forwards;
   width: 100%;
   z-index: 1000;
+}
+
+.header-links__name {
+  font-family: 'Chilanka', cursive;
+}
+
+button {
+  outline: none;
 }

@@ -1,0 +1,20 @@
+.SkillCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.SkillCard-progress {
+  width: 800px;
+  height: 24px;
+  background-color: #dcdde6;
+}
+
+.SkillCard-progress__graph {
+  display: flex;
+  justify-content: flex-end;
+  color:white;
+  align-items: flex-end;
+}

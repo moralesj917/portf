@@ -93,32 +93,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./component/Homepage/SectionOne/HomePage-Card.js":
-/*!********************************************************!*\
-  !*** ./component/Homepage/SectionOne/HomePage-Card.js ***!
-  \********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-var HomePageCard = function HomePageCard(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "HomePageCard"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../../../static/images/checkmark.svg",
-    alt: "Check mark"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, props.paragraph)));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (HomePageCard);
-
-/***/ }),
-
 /***/ "./component/Homepage/SectionOne/SectionOne.js":
 /*!*****************************************************!*\
   !*** ./component/Homepage/SectionOne/SectionOne.js ***!
@@ -130,37 +104,91 @@ var HomePageCard = function HomePageCard(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _HomePage_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HomePage-Card */ "./component/Homepage/SectionOne/HomePage-Card.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _SkillCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SkillCard */ "./component/Homepage/SectionOne/SkillCard.js");
 
 
 
 
 var SectionOne = function SectionOne() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "SectionOne "
+    className: "SectionOne"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "SectionOne-top"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Front-end, Back-end, and Devops. As a full stack engineer, I needed to be as well-rounded to be able to create and make the things that sparked my interest."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Front-end, Back-end, and Devops. As a full stack engineer, I needed to be as well-rounded to be able to create and make the things that sparked my interest."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "../../static/resume.pdf"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "mobile__buttons"
   }, "Resume"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "SectionOne-bottom"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePage_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Front-end",
-    paragraph: "I learned HTML, CSS, and vanilla JavaScript. To make my web pages interactive. But I added some JS frameworks like React.js."
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePage_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Back-end",
-    paragraph: "I know to use Node.js as well Express.js to make server including using Golang to combine with React to make a super fast application that is well made."
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomePage_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "GraphQL & SQL",
-    paragraph: "Mostly everything is on mobile most of these days, that is why I made it my goal to understand a new technique of getting and transmitting my data."
-  })));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "React",
+    progress: "90%",
+    color: "#61DBFB"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "GoLang",
+    progress: "70%",
+    color: "#29BEB0"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "AWS",
+    progress: "60%",
+    color: "#F79C34"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "JavaScript",
+    progress: "90%",
+    color: "#F0DB4F"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Docker",
+    progress: "10%",
+    color: "#0db7ed"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "MySql",
+    progress: "60%",
+    color: "#F29111"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SkillCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "HTML/CSS",
+    progress: "90%",
+    color: "#F16529"
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SectionOne);
+
+/***/ }),
+
+/***/ "./component/Homepage/SectionOne/SkillCard.js":
+/*!****************************************************!*\
+  !*** ./component/Homepage/SectionOne/SkillCard.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var SkillCard = function SkillCard(props) {
+  var width = {
+    width: props.progress,
+    backgroundColor: props.color,
+    height: '24px'
+  };
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SkillCard"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "SkillCard__title"
+  }, props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SkillCard-progress"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SkillCard-progress__graph",
+    style: width
+  }, props.progress)));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SkillCard);
 
 /***/ }),
 
@@ -326,7 +354,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Footer = function Footer() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     className: "footer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer-first"
@@ -373,27 +401,33 @@ __webpack_require__.r(__webpack_exports__);
 
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    className: "header  ",
+    className: "header",
     id: "header__sidepanel"
   }, "className", ""), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "header__navbar sticky"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "header-links header-links-one"
+    className: "header-link header-links__name"
+  }, "Jonathan Morales")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "header-links"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "header-link header-links-one"
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/portfolio"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "header-links header-links-two"
+    className: "header-link header-links-two"
   }, " Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/about"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "header-links header-links-three"
+    className: "header-link header-links-three"
   }, "About")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "../../static/resume.pdf"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "header-links header-links-four"
-  }, "Resume"))));
+    className: "header-link header-links-four"
+  }, "Resume")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -1317,9 +1351,11 @@ function (_React$Component) {
         href: "../static/images/tech-icon-18.jpg"
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("main", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "hero-one"
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "hero-one-name"
-      }, "Jonathan Morales")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_component_Homepage_SelectionBar_SelectionBar__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h2", {
+        className: "hero-one-name__title"
+      }, "Jonathan Morales"))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_component_Homepage_SelectionBar_SelectionBar__WEBPACK_IMPORTED_MODULE_14__["default"], {
         handleStatus: this.handleStatus
       }), this.state.active && content));
     }
