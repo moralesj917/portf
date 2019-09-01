@@ -11,6 +11,7 @@ const Portfolio = () => (
     <Head>
       <title>Portfolio</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="Description" content="Projects page to Jonathan Morales's portfolio" />
       <link rel="icon" href="../static/images/tech-icon-18.jpg"></link>
     </Head>
 

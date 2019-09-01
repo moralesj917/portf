@@ -17,7 +17,8 @@ var HomePageCard = function HomePageCard(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "HomePageCard"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../../../static/images/checkmark.svg"
+    src: "../../../static/images/checkmark.svg",
+    alt: "Check mark"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, props.paragraph)));
 };
 
@@ -93,13 +94,13 @@ var SectionThree = function SectionThree() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Experience")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "SectionThree-bottom"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    text: "My experience began as a Software Engineer Appretince at SSI Schaefer a logistics company that uses  java. I only got experience as a QA Engineer. Working with JVM and high profile clients that were worth  millions of dollars.",
+    text: "My experience began as a Software Engineer Apprentice at SSI Schaefer a logistics company that uses  java. I've received experience as a QA Engineer. Working with JVM and being the intermediatery betwen our high  profile clients and the developers.",
     job: "SSI Schaefer"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
     text: "Acquiring and applying knowledge is one of my passions. Understanding the inner-workings of some of  the most advanced technology. Inevitably a stack that I personally thought would work best led me to build  and create my own projects. With my curiosity leading the way",
     job: "Personal"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    text: "Since I was an apprentice for Schaefer they only paid for an Associates in IT with a concentration  with Software Engineering but I left before taking any Sofware Engineering courses. I did complete and  achieve my Pc pro and Network certification from Testout.",
+    text: "Since I was an apprentice for Schaefer they only paid for an Associates in IT with a concentration  with Software Engineering but I left before taking any Software Engineering courses. I did complete and  achieve my Pc pro and Network certification from Testout.",
     job: "CPCC"
   })));
 };
@@ -160,13 +161,16 @@ var SectionTwo = function SectionTwo() {
     className: "SectionTwo-bottom"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "SectionTwo-bottom-image-one",
-    src: "../../../static/images/expensify-project.png"
+    src: "../../../static/images/expensify-project.png",
+    alt: "Expensify app screenshot"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "SectionTwo-bottom-image-two",
-    src: "../../../static/images/node-chat-app.png"
+    src: "../../../static/images/node-chat-app.png",
+    alt: "Web chat app screenshot"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "SectionTwo-bottom-image-three",
-    src: "../../../static/images/weather-app.png"
+    src: "../../../static/images/weather-app.png",
+    alt: "Weather app screenshot"
   })));
 };
 
@@ -6591,10 +6595,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Findex.js!./":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Findex.js ***!
-  \******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FSide-Projects%2FPortf%2Fpages%2Findex.js!./":
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FSide-Projects%2FPortf%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10904,6 +10908,9 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_component_layout_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", null, "Home Page"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "viewport",
         content: "initial-scale=1.0, width=device-width "
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "Description",
+        content: "Home page to Jonathan Morales's portfolio"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "icon",
         href: "../static/images/tech-icon-18.jpg"
@@ -10924,13 +10931,13 @@ function (_React$Component) {
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Findex.js ***!
-  \**********************************************************************************************************************************/
+/*!**************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FSide-Projects%2FPortf%2Fpages%2Findex.js ***!
+  \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FPortf%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FSide-Projects%2FPortf%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FSide-Projects%2FPortf%2Fpages%2Findex.js!./");
 
 
 /***/ }),

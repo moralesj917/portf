@@ -13,6 +13,7 @@ class Index extends React.Component {
         <Head>
           <title>Home Page</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width " />
+          <meta name="Description" content="Home page to Jonathan Morales's portfolio" />
           <link rel="icon" href="../static/images/tech-icon-18.jpg"></link>
         </Head>
          <div>

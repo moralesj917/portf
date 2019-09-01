@@ -14,9 +14,9 @@ const SectionTwo = () => (
       </Link>
     </div>
     <div className="SectionTwo-bottom">
-      <img className="SectionTwo-bottom-image-one" src="../../../static/images/expensify-project.png"/>
-      <img className="SectionTwo-bottom-image-two" src="../../../static/images/node-chat-app.png"/>
-      <img className="SectionTwo-bottom-image-three" src="../../../static/images/weather-app.png"/>
+      <img className="SectionTwo-bottom-image-one" src="../../../static/images/expensify-project.png" alt="Expensify app screenshot"/>
+      <img className="SectionTwo-bottom-image-two" src="../../../static/images/node-chat-app.png" alt="Web chat app screenshot"/>
+      <img className="SectionTwo-bottom-image-three" src="../../../static/images/weather-app.png" alt="Weather app screenshot"/>
     </div>
   </div>
 );
