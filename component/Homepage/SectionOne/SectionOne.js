@@ -6,12 +6,12 @@ const SectionOne = () => (
   <div className="SectionOne">
     <div className="SectionOne-top">
       <h2>Skills</h2>
-      <p> Front-end, Back-end, and DevOps. As a Full-stack engineer, I needed to 
-        be a well-rounded individual that has the ability and knowledge to be able 
-        to create a nice UI but as well as be able to create endpoints for my API's. 
-        Not to forget as well that with a world that is leaning on technology more and 
-        more every day comes with the necessity to be able to deploy, choose the best 
-        solution, and troubleshoots any problems that may occur.
+      <p> As a Full-stack engineer, I have strong skills in front-end, back-end, and devops. 
+        I needed these skills because to be a great full-stack engineer you need to be able 
+        to create a nice UI, but also be able to create endpoints for an API. I also recongized 
+        that those two skills wouldn't be helpful if I can't deploy and everyone has accesss to it .
+        That is why I gathered a plethora amount of knowledge on the cloud to be able to deploy, choose the best 
+        solution, and troubleshoot any problem that can occur.
       </p>
     </div>
 
