@@ -117,24 +117,22 @@ var SectionThree = function SectionThree() {
     className: "SectionThree-bottom"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
     job: "Teacher Assistant",
-    text: "Road to Hire is a Non-profit Bootcamp created the by CEO of Red Ventures Rick Elias.",
+    text: "Road to Hire is a Non-profit Bootcamp created by CEO of Red Ventures Rick Elias.",
     company: "Road to Hire",
-    date: "June 17, 2019 ~ Present"
+    date: "June 17, 2019 ~ Present",
+    resp: ['Teach lessons on HTML, CSS, JS, Jquery, and React', 'Help individual students', 'Help organize events']
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
     job: "Software Engineer Appretince",
     text: "Road to Hire is a Non-profit Bootcamp created the by CEO of Red Ventures Rick Elias.",
     company: "Road to Hire",
-    date: "June 17, 2019 ~ Present"
+    date: "June 17, 2019 ~ Present",
+    resp: ['Learn about the lastest techonologies', 'Develop my professional skills', 'Create software projects']
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
     job: "Jr. Software Engineer",
     text: "SSI Schaefer is a international company that leads in manufacturing logistics.",
     company: "SSI Schaefer",
-    date: "August 20, 2018 ~ June 15, 2019"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    job: "Student",
-    text: "CPCC is in Charlotte, NC where I got IT training and as well as cerfications.",
-    company: "CPCC",
-    date: "August 20, 2018 ~ June 15, 2019"
+    date: "August 20, 2018 ~ June 15, 2019",
+    resp: ['QA tested the software', 'Help mediate between developers and the customer', 'Develop management application']
   })));
 };
 
@@ -11015,7 +11013,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonathanmorales%2FDocuments%2FSide-Projects%2FPortf%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************************/
@@ -11038,5 +11036,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
