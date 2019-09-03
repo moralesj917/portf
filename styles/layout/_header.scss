@@ -1,24 +1,30 @@
-html, body {
-  font-family: 'Red Hat Text', sans-serif;
+html,
+body {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+main {
+  overflow: hidden;
 }
 
 .header {
   position: fixed;
   top: 0;
   z-index: 1000;
-  padding: 1.5em 0 1em 0;
+  padding: 1em;
   width: 100vw;
   display: flex;
   justify-content: space-between;
   background-color: #111;
+  overflow: hidden;
 }
 
 .header-link {
   text-decoration: none;
   color: white;
   font-size: 1.5em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   letter-spacing: 3px;
 }
 
@@ -32,21 +38,102 @@ html, body {
 
 .header-links {
   justify-content: flex-end;
-  display: flex;
+  display: none;
+  flex-direction: column;
 }
 
 .sticky {
   position: fixed;
   background: #111;
   animation-fill-mode: forwards;
-  width: 100%;
+  width: calc(100% - 1em);
   z-index: 1000;
 }
 
 .header-links__name {
-  font-family: 'Chilanka', cursive;
+  font-family: "Chilanka", cursive;
 }
 
 button {
   outline: none;
+}
+
+.openNav {
+  display: flex;
+  width: 100vw;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  height: calc(100vh - 90px);
+  background-color: #111;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .openNav {
+    display: unset;
+    width: unset;
+    position: unset;
+    top: unset;
+    left: unset;
+    height: unset;
+    background-color: unset;
+    justify-content: unset;
+    align-items: unset;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 1.5em 0 1em 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+  }
+
+  .header-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    letter-spacing: 3px;
+  }
+
+  .header__navbar {
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .header-links {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sticky {
+    position: fixed;
+    background: #111;
+    animation-fill-mode: forwards;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .header-links__name {
+    font-family: "Chilanka", cursive;
+  }
+
+  button {
+    outline: none;
+  }
 }

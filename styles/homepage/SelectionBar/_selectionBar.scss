@@ -1,9 +1,10 @@
 .SelectionBar {
-  width: 100vw;
-  background-color: #111; 
+  width: 100%;
+  background-color: #111;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 1em 0;
 }
 
 .SelectionBar__button {
@@ -11,10 +12,28 @@
   color: white;
   background: none;
   font-size: 1.6em;
-  padding: 1em 2em;
   cursor: pointer;
 }
 
-.SelectionBar__button--center {
-  margin-left: 2.8em;
+@media (min-width: 800px) {
+  .SelectionBar {
+    width: 100vw;
+    background-color: #111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .SelectionBar__button {
+    border: none;
+    color: white;
+    background: none;
+    font-size: 1.6em;
+    padding: 1em 2em;
+    cursor: pointer;
+  }
+
+  .SelectionBar__button--center {
+    margin-left: 2.8em;
+  }
 }
