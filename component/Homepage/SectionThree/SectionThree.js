@@ -9,24 +9,25 @@ const SectionThree = () => (
 
     <div className="SectionThree-bottom">
       <SectionThreeCard 
-        text="My experience began as a Software Engineer Apprentice at SSI Schaefer a logistics company that uses 
-        java. I've received experience as a QA Engineer. Working with JVM and being the intermediatery betwen our high 
-        profile clients and the developers."
-        job="SSI Schaefer"
+        job="Teacher Assistant"
+        text="Road to Hire is a Non-profit Bootcamp created by CEO of Red Ventures Rick Elias."
+        company="Road to Hire"
+        date="June 17, 2019 ~ Present"
+        resp={['Teach lessons on HTML, CSS, JS, Jquery, and React', 'Help individual students', 'Help organize events']}
       />
-
       <SectionThreeCard 
-        text="Acquiring and applying knowledge is one of my passions. Understanding the inner-workings of some of 
-        the most advanced technology. Inevitably a stack that I personally thought would work best led me to build 
-        and create my own projects. With my curiosity leading the way"
-        job="Personal"
+        job="Software Engineer Appretince"
+        text="Road to Hire is a Non-profit Bootcamp created the by CEO of Red Ventures Rick Elias."
+        company="Road to Hire"
+        date="June 17, 2019 ~ Present"
+        resp={['Learn about the lastest techonologies', 'Develop my professional skills', 'Create software projects']}
       />
-      
-      <SectionThreeCard 
-        text="Since I was an apprentice for Schaefer they only paid for an Associates in IT with a concentration 
-        with Software Engineering but I left before taking any Software Engineering courses. I did complete and 
-        achieve my Pc pro and Network certification from Testout."
-        job="CPCC"
+     <SectionThreeCard 
+        job="Jr. Software Engineer"
+        text="SSI Schaefer is a international company that leads in manufacturing logistics."
+        company="SSI Schaefer"
+        date="August 20, 2018 ~ June 15, 2019"
+        resp={['QA tested the software', 'Help mediate between developers and the customer', 'Develop management application']}
       />
     </div>
   </div>

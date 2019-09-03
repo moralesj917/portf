@@ -209,14 +209,23 @@ var SectionThree = function SectionThree() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Experience")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "SectionThree-bottom"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    text: "My experience began as a Software Engineer Apprentice at SSI Schaefer a logistics company that uses  java. I've received experience as a QA Engineer. Working with JVM and being the intermediatery betwen our high  profile clients and the developers.",
-    job: "SSI Schaefer"
+    job: "Teacher Assistant",
+    text: "Road to Hire is a Non-profit Bootcamp created by CEO of Red Ventures Rick Elias.",
+    company: "Road to Hire",
+    date: "June 17, 2019 ~ Present",
+    resp: ['Teach lessons on HTML, CSS, JS, Jquery, and React', 'Help individual students', 'Help organize events']
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    text: "Acquiring and applying knowledge is one of my passions. Understanding the inner-workings of some of  the most advanced technology. Inevitably a stack that I personally thought would work best led me to build  and create my own projects. With my curiosity leading the way",
-    job: "Personal"
+    job: "Software Engineer Appretince",
+    text: "Road to Hire is a Non-profit Bootcamp created the by CEO of Red Ventures Rick Elias.",
+    company: "Road to Hire",
+    date: "June 17, 2019 ~ Present",
+    resp: ['Learn about the lastest techonologies', 'Develop my professional skills', 'Create software projects']
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SectionThreeCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    text: "Since I was an apprentice for Schaefer they only paid for an Associates in IT with a concentration  with Software Engineering but I left before taking any Software Engineering courses. I did complete and  achieve my Pc pro and Network certification from Testout.",
-    job: "CPCC"
+    job: "Jr. Software Engineer",
+    text: "SSI Schaefer is a international company that leads in manufacturing logistics.",
+    company: "SSI Schaefer",
+    date: "August 20, 2018 ~ June 15, 2019",
+    resp: ['QA tested the software', 'Help mediate between developers and the customer', 'Develop management application']
   })));
 };
 
@@ -240,7 +249,15 @@ __webpack_require__.r(__webpack_exports__);
 var SectionThreeCard = function SectionThreeCard(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "SectionThreeCard"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, props.text), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, props.job));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "SectionThreeCard__job"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, props.job), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, props.company), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, props.date)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "SectionThreeCard__text"
+  }, props.text), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Responbilites"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, props.resp && props.resp.map(function (resp) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      key: resp
+    }, resp);
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SectionThreeCard);
