@@ -1,5 +1,10 @@
 @import 'base/normalize';
 @import 'base/base';
+@import 'hamburgers/hamburgers.scss';
+@import 'hamburgers/base';
+
+@import 'hamburgers/types/spring';
+
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Text|Chilanka&display=swap');
 @import 'layout/header';
 @import 'layout/footer';
