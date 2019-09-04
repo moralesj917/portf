@@ -1,10 +1,9 @@
 .SectionTwo {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid 	#A9A9A9;
   margin-left: 2em;
   margin-right: 2em;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
   padding-top: 2em;
 }
 
@@ -13,12 +12,14 @@
   font-size: 2.5em;
 }
 
-
 .SectionTwo-images {
   width: 90vw;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-around;
   margin: 0 auto 2em auto;
+  justify-items: center;
+  grid-row-gap: 30px;
 }
 
 .SectionTwo__images {
@@ -28,38 +29,44 @@
 .Projects {
   display: flex;
   justify-content: space-between;
-  width: 70vw;
+  width: 90vw;
   margin: 0 auto;
+  flex-direction: column;
 }
 
-@media (max-width: 450px) {
-
+@media (min-width: 800px) {
   .SectionTwo {
     display: flex;
-    margin: unset;
-    border-bottom: none;
-
+    flex-direction: column;
+    border-bottom: 1px solid #a9a9a9;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 5em;
+    padding-top: 2em;
   }
 
-  .SectionTwo-bottom {
-    display: none;
+  .SectionTwo__title {
+    text-align: center;
+    font-size: 2.5em;
   }
 
-  .SectionTwo-top {
-    background: white;
-    z-index: 2;
+  .SectionTwo-images {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 2em auto;
+  }
+
+  .SectionTwo__images {
+    height: 80px;
+  }
+
+  .Projects {
+    display: flex;
+    justify-content: space-between;
     width: 70vw;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px -3px;
     margin: 0 auto;
+    flex-direction: row;
 
-    h2 {
-      font-size: 1.5rem;
-    }
-
-    p{
-      font-size: .8em;
-      width: 90%;
-    }
   }
 }

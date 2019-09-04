@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 75vw;
+  width: 90vw;
   margin: 0 auto;
 
   h3 {
@@ -11,7 +11,7 @@
 }
 
 .SkillCard-progress {
-  width: 800px;
+  width: 250px;
   height: 24px;
   background-color: #dcdde6;
 }
@@ -21,4 +21,36 @@
   justify-content: flex-end;
   color:white;
   align-items: flex-end;
+
+  p {
+    margin:0;
+    padding: 0 10px 0 0;
+  }
+}
+
+@media(min-width: 800px) {
+  .SkillCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75vw;
+    margin: 0 auto;
+  
+    h3 {
+      font-size: 1.1em;
+    }
+  }
+  
+  .SkillCard-progress {
+    width: 800px;
+    height: 24px;
+    background-color: #dcdde6;
+  }
+  
+  .SkillCard-progress__graph {
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+    align-items: flex-end;
+  }
 }
