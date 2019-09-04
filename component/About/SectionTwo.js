@@ -1,31 +1,17 @@
-import React from 'react';
-import FutureCards from './futureCards/FutureCards';
+import React from "react";
+import FutureCards from "./futureCards/FutureCards";
 
 const SectionTwo = () => (
   <div className="About-SectionTwo">
     <h1>Future Endeavors</h1>
-    
-    <FutureCards 
+
+    <FutureCards
       title="Machine Learning"
-      summary="I'm energetic Software engineer who loves to solve problems. I enjoy working in a 
-      team environment because it allows me to have different perspectives on writing and creating 
-      code. I always love challenging myself to learn new skills as well as sharpening the skills i already have."
       imgFilePath="../../static/images/machine-learning.png"
     />
-    <FutureCards 
-      title="Vue.js"
-      summary="I'm energetic Software engineer who loves to solve problems. I enjoy working in a 
-      team environment because it allows me to have different perspectives on writing and creating 
-      code. I always love challenging myself to learn new skills as well as sharpening the skills i already have."
-      imgFilePath="../../static/images/vue.png"
-    />
-    <FutureCards 
-      title="Python"
-      summary="I'm energetic Software engineer who loves to solve problems. I enjoy working in a 
-      team environment because it allows me to have different perspectives on writing and creating 
-      code. I always love challenging myself to learn new skills as well as sharpening the skills i already have."
-      imgFilePath="../../static/images/python.png"
-    />
+    <FutureCards title="Vue.js" imgFilePath="../../static/images/vue.png" />
+    <FutureCards title="Python" imgFilePath="../../static/images/python.png" />
+    <FutureCards title="Kubernetes" imgFilePath="../../static/images/kubernetes.png" />
   </div>
 );
 
