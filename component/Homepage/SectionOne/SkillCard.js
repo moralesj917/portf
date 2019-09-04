@@ -10,7 +10,7 @@ const SkillCard = (props) => {
     <div className="SkillCard">
       <h3 className="SkillCard__title">{props.title}</h3>
       <div className="SkillCard-progress">
-        <div className="SkillCard-progress__graph" style={width}>{props.progress}</div>
+        <div className="SkillCard-progress__graph" style={width}><p>{props.progress}</p></div>
       </div>
     </div>
   );

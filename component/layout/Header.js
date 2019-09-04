@@ -13,11 +13,11 @@ const Header = () => (
   <nav className="header" id="header__sidepanel" className="">
     <ul className="header__navbar sticky">
       <Link href="/">
-        <a className="header-link header-links__name">Jonathan Morales</a>
+        <a className="header-link header-links__name headers">Jonathan Morales</a>
       </Link>
 
       <button
-        className="hamburger hamburger--spring"
+        className="hamburger hamburger--spring headers"
         type="button"
         onClick={e => handleHamburger(e)}
       >

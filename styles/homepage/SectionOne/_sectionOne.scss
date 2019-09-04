@@ -1,7 +1,6 @@
 .SectionOne {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid $off-white;
   padding-bottom: 2em;
   margin-left: 2em;
   margin-right: 2em;
@@ -17,10 +16,10 @@
     font-size: 2em;
   }
 
-  p{
-    width: 70%;
+  p {
+    width: 98%;
     margin: 0 auto 2em auto;
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: left;
     line-height: 1.6;
   }
@@ -31,4 +30,41 @@
   justify-content: space-evenly;
   margin-left: 2em;
   margin-right: 2em;
+}
+
+@media (min-width: 800px) {
+  .SectionOne {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid $off-white;
+    padding-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 100px;
+  }
+
+  .SectionOne-top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+      font-size: 2em;
+    }
+
+    p {
+      width: 70%;
+      margin: 0 auto 2em auto;
+      font-size: 1.3em;
+      text-align: left;
+      line-height: 1.6;
+    }
+  }
+
+  .SectionOne-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
 }
