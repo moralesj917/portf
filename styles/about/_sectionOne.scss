@@ -13,19 +13,19 @@
   align-items: center;
 
   h2 {
-    margin-top: .5em;
+    margin-top: 0.5em;
     font-size: $h2-heading;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
 
   h2,
   h3,
   p {
-   text-align: center;
+    text-align: center;
   }
 
   h3 {
-  font-size: 1.5em;
+    font-size: 1.5em;
   }
 
   p {
@@ -37,15 +37,20 @@
     margin: 0 auto 1em auto;
     width: 20vw;
   }
+}
 
-  a {
-    background-color: $green;
-    text-decoration: none;
-    color: white;
-    padding: 1.5rem;
-    font-size: 1.3em;
-    margin-top: 1em;
-  }
+.c-about__contact {
+  background-color: $green;
+  text-decoration: none;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.3em;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.c-contact__buttons {
+  margin-top: 2em;
 }
 
 .About-SectionOne-right {
@@ -58,12 +63,16 @@
 }
 
 @media (max-width: 450px) {
+  .c-contact__buttons {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+  }
+  
   .About-SectionOne {
     flex-direction: column;
     margin-bottom: unset;
-
   }
-
 
   .About-SectionOne-left {
     width: 100vw;
@@ -75,7 +84,6 @@
     img {
       width: 70vw;
     }
-
   }
 
   .About-SectionOne-right {
