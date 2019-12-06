@@ -3,7 +3,6 @@ import Layout from "../component/layout/Layout";
 import Head from "next/head";
 import "../styles/styles.scss";
 import SectionOne from "../component/About/SectionOne";
-import SectionTwo from "../component/About/SectionTwo";
 
 const About = () => (
   <Layout>
@@ -19,8 +18,6 @@ const About = () => (
       <div className="portfolio__background"></div>
 
       <SectionOne />
-      <hr />
-      <SectionTwo />
     </main>
   </Layout>
 );

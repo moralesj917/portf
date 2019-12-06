@@ -1,23 +1,29 @@
-import React from 'react';
-import ThumbNail from './WebApps/ThumbNail';
-import TechCard from './WebApps/TechCard';
+import React from "react";
+import ThumbNail from "./WebApps/ThumbNail";
+import TechCard from "./WebApps/TechCard";
 
 const SectionOne = () => (
   <div className="Port-Section">
     <ThumbNail
-      title="Portfolio Website"
-      summary="As an aspiring Full-Stack Developer in todays market that is oversaturated in engineers. I had to find a way to 
-      showcase my skills as a Software Engineer and as well as implement the technical knowledge I acquired for practical use."
-      appLink="www.jonmoral.com"
-      imgFilePath="../../static/images/portfolio-website.png"
-      githubRepo="https://github.com/moralesj917/Portf"
+      title="Gateway Project"
+      summary="To get into Road to Hire you would have to pass the Gateway process. The challenge to pass through the Gateway program was to create a website on a country. I choose Iceland 
+      . It is made with HTML, CSS, and JS"
+      appLink="https://jmoral1943.github.io/RV-project/index.html"
+      imgFilePath="../../static/images/gateway.png"
+      githubRepo="https://github.com/jmoral1943/RV-project"
     />
-    <div className="mobileporf__toolsHeading"><h2>Tools used</h2></div>
+    <div className="mobileporf__toolsHeading">
+      <h2>Tools used</h2>
+    </div>
     <TechCard
-      icons={["../../static/images/react-pic.png", "../../static/images/next.png", "../../static/images/now.png" ]}
-      titles={["React", "Next.js", "Zeit / Now"]}
+      icons={[
+        "../../static/images/html.png",
+        "../../static/images/css.svg",
+        "../../static/images/javascript.svg"
+      ]}
+      titles={["HTML", "CSS", "JavaScript"]}
     />
-    <hr className="finishing-section"/>
+    <hr className="finishing-section" />
   </div>
 );
 

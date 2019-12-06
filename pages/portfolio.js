@@ -5,6 +5,7 @@ import "../styles/styles.scss";
 import SectionOne from "../component/Portfolio/SectionOne";
 import SectionTwo from "../component/Portfolio/SectionTwo";
 import SectionThree from "../component/Portfolio/SectionThree";
+import SectionFour from "../component/Portfolio/SectionFour";
 
 const Portfolio = () => (
   <Layout>
@@ -23,6 +24,7 @@ const Portfolio = () => (
         <SectionOne />
         <SectionTwo />
         <SectionThree />
+        <SectionFour />
       </div>
     </main>
   </Layout>
